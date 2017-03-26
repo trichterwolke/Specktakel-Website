@@ -11,7 +11,7 @@ date = "24.09.2017"
 
 [[items]]
     time = "11:00 – 12:00 Uhr"
-    event = "Musik"
+    event = "Tanzvorführung"
 
 [[items]]
     time = "13:00 – 14:00 Uhr"
@@ -23,4 +23,6 @@ date = "24.09.2017"
 
 [[items]]
     time = "16:00 – 17:00 Uhr"
-    event = "Schaukampf"
+    event = "Bogenschießen"
+
+    
