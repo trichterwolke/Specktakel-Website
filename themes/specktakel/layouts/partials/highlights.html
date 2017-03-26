@@ -13,14 +13,18 @@
             {{ range where .Site.Pages "Section" "highlights"  }}
                 <div class="col-lg-4 col-sm-6">
                     <a href="{{ .URL }}" class="portfolio-box portfolio-link" data-toggle="modal">
+                        <div class="program-box-content">
                         <img src="{{ .URL }}{{ .Params.thumbnail }}" class="img-responsive" alt="">
-                        <div class="portfolio-box-x">
+                            <div class="program-box-overlay"></div>                        
+                        </div>
+                        <div class="portfolio-box">
                             {{ with .Title }}
-                                <div class="project-name">
+                                <div class="program-name">
                                     {{ . }}
                                 </div>
                             {{ end }}                                      
                         </div>
+
                     </a>
                </div>
             {{ end }}                   
