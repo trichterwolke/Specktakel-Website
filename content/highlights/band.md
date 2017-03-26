@@ -1,4 +1,0 @@
-+++
-title = "Mittelalterband „Porterra“"
-image = ""
-+++

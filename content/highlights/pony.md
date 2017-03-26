@@ -1,4 +1,5 @@
 +++
 title = "Ponyreiten"
-image = ""
+thumbnail = "thumb.jpg"
+image = "large.jpg"
 +++

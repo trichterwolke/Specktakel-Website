@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "https://trichterwolke.github.io/specktakel/"
 languageCode = "de-de"
 title = "Mittelalterliches Specktakle"
 theme = "specktakel"
@@ -90,6 +90,47 @@ googleAnalytics = ""
 #            icon = "fa-heart"
 #            title = "Made with Love"
 #            description = "You have to make your websites with love these days!"
+
+	[params.program]
+
+	[[params.program.items]]
+			title = "Schmiede"
+			
+	[[params.program.items]]
+			title = "Hornarbeiten"
+			
+	[[params.program.items]]
+			title = "Steinmetz"
+			
+	[[params.program.items]]
+			title = "Lederarbeiten"
+			
+	[[params.program.items]]
+			title = "Kinderprogramm mit Quiz"
+			
+	[[params.program.items]]
+			title = "Glasperlen"
+			
+	[[params.program.items]]
+			title = "Diamantensieben"
+
+	[[params.program.items]]
+			title = "Tanzvorführung"
+			
+	[[params.program.items]]
+			title = "Steinmetz"
+			
+	[[params.program.items]]
+			title = "Showkampf"
+			
+	[[params.program.items]]
+			title = "Pfannenbrotherstellung"
+			
+	[[params.program.items]]
+			title = "Gewandschneiderei"
+			
+	[[params.program.items]]
+			title = "Lagerwache"
 
 
     # Portfolio modals

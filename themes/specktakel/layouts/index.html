@@ -17,6 +17,8 @@
         {{ end }}
         
         {{ partial "highlights.html" . }}
+
+        {{ partial "program.html" .Site.Params.program }}
     
         {{ if .Site.Data.agenda }}
             {{ partial "agenda.html" .Site.Data.agenda }}

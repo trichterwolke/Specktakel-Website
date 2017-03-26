@@ -1,33 +1,29 @@
-{{ "<!-- Highlights -->" | safeHTML }}
-<section id="highlights">
-    <div class="container">
+{{ "<!-- HIGHLIGHTS -->" | safeHTML }}
+<section id="highlights">    
+    <div class="container">          
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Markt-Highlights</h2>
                 <hr class="primary">
             </div>
         </div>
+    </div>
+    <div class="container">
         <div class="row">
-                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                     
             {{ range where .Site.Pages "Section" "highlights"  }}
-                        <a class="highlight-item" href="{{ .URL }}"> {{ .Title }} </a>
-            {{ end }}   
-                    
-                    <!--a href="{{ .URL }}" class="portfolio-box portfolio-link" data-toggle="modal">
-                         <img src="{{ .URL }}{{ .Params.image }}" class="img-responsive" alt="">                    
-                         <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                {{ with .Title }}
-                                    <div class="project-name">
-                                        {{ . }}
-                                    </div>
-                                {{ end }}
-                            </div>
-                        </div>                
-                    </a-->
-                    </div>
-               </div>                
+                <div class="col-lg-4 col-sm-6">
+                    <a href="{{ .URL }}" class="portfolio-box portfolio-link" data-toggle="modal">
+                        <img src="{{ .URL }}{{ .Params.thumbnail }}" class="img-responsive" alt="">
+                        <div class="portfolio-box-x">
+                            {{ with .Title }}
+                                <div class="project-name">
+                                    {{ . }}
+                                </div>
+                            {{ end }}                                      
+                        </div>
+                    </a>
+               </div>
+            {{ end }}                   
         </div>
     </div>
 </section>

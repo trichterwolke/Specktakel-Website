@@ -18,7 +18,7 @@ body {
 
 body {
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    background:#F6ECA3;/* #FCFAE1;*/
+    background:#FCFAE2;/* #FCFAE1;*/
 }
 
 hr {
@@ -120,7 +120,7 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    padding: 100px 0 0 0;
 }
 
 aside {
@@ -200,9 +200,9 @@ aside {
     .navbar-default.affix-top .nav > li > a
     {
         font-size: 0.8em;
-        text-shadow:0 0 5px black,
-                    0 0 10px black,
-                    0 0 20px black;
+        text-shadow: 0 0  5px black,
+                     0 0 10px black,
+                     0 0 20px black;
     }
 
     .navbar-default .nav > li > a,
@@ -218,11 +218,11 @@ aside {
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
         background-color: #F6ECA3;
+        box-shadow: 0 0 5px black;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
-        visibility: visible;
-        /*font-size: 14px;*/
+        visibility: visible;                
         color: #B9121B;
     }
 
@@ -335,11 +335,10 @@ header .header-content .header-content-inner p {
     height: 2.5em;
 }
 
-
 .portfolio-box {
     display: block;
     position: relative;
-    margin: 0 auto;
+    /*margin: 2em;*/
     max-width: 650px;
 }
 
@@ -384,6 +383,14 @@ header .header-content .header-content-inner p {
 
 .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
+}
+
+.portfolio-box-x {
+    font-size: 1.6em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: .5em;
 }
 
 @media(min-width:768px) {
@@ -645,6 +652,48 @@ ul {
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.15);
+}
+/*
+.badge-round {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #FCFAE2;
+    background: #B9121B;
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;    
+    padding: .5em;
+    text-align: center;
+    transform: rotate(-20deg);
+    box-shadow: 1px 1px 10px black;
+    display: table-cell;
+    vertical-align: middle; 
+    margin: 10em;
+}
 
+.badge-round p {
+    margin-bottom: 0;
+}
 
+*/
+.label-rot {
+    margin-top: 2em;
+    display: inline-block;
+}
 
+.label-rot-content {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #FCFAE2;
+    background: #B9121B; 
+    padding: 1em;
+    text-align: center;
+    transform: rotate(-10deg);
+    display: table-cell;
+    vertical-align: middle;   
+        
+}
+
+.label-rot p {
+      margin-bottom: 0;
+}

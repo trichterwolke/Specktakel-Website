@@ -1,4 +1,5 @@
 +++
 title = "Schaukampfteam"
-image = ""
+thumbnail = "thumb.jpg"
+image = "large.jpg"
 +++

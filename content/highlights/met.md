@@ -1,4 +1,0 @@
-+++
-title = "Metstand"
-image = ""
-+++

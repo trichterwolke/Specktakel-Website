@@ -1,5 +1,5 @@
 +++
-title = "Schmiede"
+title = "Lagerleben"
 thumbnail = "thumb.jpg"
 image = "large.jpg"
 +++
