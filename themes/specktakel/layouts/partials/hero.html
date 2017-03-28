@@ -2,11 +2,14 @@
 <header>
     <div class="header-content">
         <div class="header-content-inner">
+            {{ with .Site.Params.hero.ordinal }}
+                <h3>{{ . }}</h3>
+            {{ end }}
             {{ with .Site.Params.hero.firstHeadline }}
-                <h1> {{ . }}</h1>
+                <h1>{{ . }}</h1>
             {{ end }}
             {{ with .Site.Params.hero.secondHeadline }}
-                <h1> {{ . }}</h1>
+                <h1>{{ . }}</h1>
             {{ end }}
             {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
                 <hr>

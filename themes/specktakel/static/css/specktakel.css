@@ -32,13 +32,14 @@ hr.light {
 }
 
 a {
-    text-transform: none;
+  /*  text-transform: none;*/
     color: #3D2E17;
 }
 
 a:hover,
 a:focus {
     color: #C9141D;
+    text-decoration: none;
 }
 
 #about a {
@@ -139,9 +140,9 @@ aside {
     -moz-transition-delay: .35s;
     transition-delay: .35s;
 */
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    -webkit-transition: all 333ms;
+    -moz-transition: all 333ms;
+    transition: all 333ms;
     
 }
 
@@ -344,6 +345,8 @@ header .header-content .header-content-inner p {
     height: 2.5em;
 }
 
+/* PROGRAM-BOX */
+
 .program-box {
     display: block;
     position: relative;
@@ -362,9 +365,9 @@ header .header-content .header-content-inner p {
     height: 100%;
     opacity: 0;
     background: rgba(150,150,150,.2);
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    -webkit-transition: all 333ms;
+    -moz-transition: all 333ms;
+    transition: all 333ms;
 }
 
 .program-box .program-box-overlay .program-box-overlay-content {
@@ -404,10 +407,69 @@ header .header-content .header-content-inner p {
 
 .program-box:hover .program-box{
     background: #C9141D;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    -webkit-transition: all 333ms;
+    -moz-transition: all 333ms;
+    transition: all 333ms;
 }
+
+
+/*** PERSON-BOX ***/
+
+.person-box {
+    display: block;
+    position: relative;
+    max-width: 200px;
+    margin-bottom: 30px;
+    
+}
+
+.person-box img {
+    border-radius: 100%;
+    margin-bottom: 6px;
+    -webkit-transition: all 333ms;
+    -moz-transition: all 333ms;
+    transition: all 333ms;
+}
+
+.person-box-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    /*padding: 6px;*/
+}
+
+.person-box-name {
+    text-align: center;
+    font-size: 20px;
+    /*padding: 6px;*/
+}
+
+/*
+.person-box:hover .person-box-overlay {
+    opacity: 1;
+}
+*/
+/*
+.person-box:hover .person-name {
+    text-decoration: none;
+}
+*/
+
+.person-box:hover img {
+    opacity: 0.7;
+    -webkit-transition: all 333ms;
+    -moz-transition: all 333ms;
+    transition: all 333ms;
+}
+
+.person-box:hover .person-box{
+    /*background: #C9141D;*/
+    -webkit-transition: all 333ms;
+    -moz-transition: all 333ms;
+    transition: all 333ms;
+}
+
+/******/
 
 .call-to-action h2 {
     margin: 0 auto 20px;
@@ -426,9 +488,9 @@ header .header-content .header-content-inner p {
     border-color: #fff;
     color: #3D2E17;
     background-color: #fff;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    -webkit-transition: all 333ms;
+    -moz-transition: all 333ms;
+    transition: all 333ms;
 }
 
 .btn-default:hover,
@@ -479,9 +541,9 @@ fieldset[disabled] .btn-default.active {
     border-color: #B9121B;
     color: #fff;
     background-color: #B9121B;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    -webkit-transition: all 333ms;
+    -moz-transition: all 333ms;
+    transition: all 333ms;
 }
 
 .btn-primary:hover,
@@ -649,9 +711,9 @@ ul {
 }
 
 .zoom {
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    -webkit-transition: all 333ms;
+    -moz-transition: all 333ms;
+    transition: all 333ms;
 }
 
 .zoom:hover {    

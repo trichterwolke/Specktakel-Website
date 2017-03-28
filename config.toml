@@ -20,8 +20,8 @@ googleAnalytics = ""
 
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
-	name = "Your name"
-	description = "Your description"
+	name = "Thomas Rösler"
+	description = "Das 4. mittelalterliche Specktakel ist ein Mittelaltermarkt in Braunschweig Gliesmarode"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
@@ -47,8 +47,8 @@ googleAnalytics = ""
 
 	# About section
 	[params.about]
-		headline    = "Seid gerüßt Freunde des mittelalterliches Treibens"
-		description = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+		headline    = "Seid gerüßt, liebe Freunde des mittelalterliches Treibens"
+		description = "nun zum 4. Mal findet der mittelalterliche Markt statt. Dieses Jahr als Mittelalterliches Spe“c”ktakel 2017. Was einmal klein und nur auf dem Gelände des SoVDs begann, wird nun zum dritten Mal auf der ehemaligen Festwiese des Stadtteils Gliesmarode stattfinden. Aber auch im BegegnungsZentrum Gliesmarode wird wieder mittelalterlich ausgestellt. Wir haben ein buntes Veranstaltungsprogramm zum Staunen, Mitmachen und Genießen für euch zusammengestellt und hoffen, euch wieder bestens unterhalten zu können. Für das leibliche Wohl ist natürlich auch wieder gesorgt: Ob wohlschmeckendes Pfannenbrot, Bratwurst, veganer Eintopf oder Met aus eigener Herstellung – hier ist für jeden etwas dabei. <br><br> Viel Spaß auf dem 4. mittelalterlichen Markt wünschen euch die Organisatoren und alle Markttreibenden. <br><br> Thomas Rösler (Ulf der Bäcker)"
 
 	[params.program]
 		title = "Weiters Angebot"

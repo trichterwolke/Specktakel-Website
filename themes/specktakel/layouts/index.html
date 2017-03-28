@@ -23,6 +23,8 @@
         {{ if .Site.Data.agenda }}
             {{ partial "agenda.html" .Site.Data.agenda }}
         {{ end }}
+        
+        {{ partial "organisation.html" . }}
 
         {{ if .Site.Params.location }}
             {{ partial "location.html" .Site.Params.location }}
