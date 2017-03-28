@@ -12,19 +12,13 @@
         <div class="row">
             {{ range where .Site.Pages "Section" "highlights"  }}
                 <div class="col-lg-4 col-sm-6">
-                    <a href="{{ .URL }}" class="program-box portfolio-link" data-toggle="modal">
-                        <div class="program-box-content">
-                        <img src="{{ .URL }}{{ .Params.thumbnail }}" class="img-responsive" alt="">
-                            <div class="program-box-overlay"></div>                        
-                        </div>
-                        <div class="program-box">
-                            {{ with .Title }}
-                                <div class="program-name">
-                                    {{ . }}
-                                </div>
-                            {{ end }}                                      
-                        </div>
-
+                    <a href="{{ .URL }}" class="program-box portfolio-link" data-toggle="modal">                
+                        <img src="{{ .URL }}{{ .Params.thumbnail }}" class="img-responsive" alt="">                                                         
+                        {{ with .Title }}
+                            <div class="program-name">
+                                {{ . }}
+                            </div>
+                        {{ end }}                        
                     </a>
                </div>
             {{ end }}                   
