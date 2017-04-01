@@ -167,14 +167,6 @@ aside {
     background-color: transparent;
 }
 
-
-
-       .navbar-default .navbar-header .navbar-brand {
-        visibility: visible;     
-        width: none;
-    } 
-
-
 @media(min-width:768px) {
     .navbar-default {
         border: none;
@@ -222,7 +214,8 @@ aside {
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
-        visibility: visible;                
+        visibility: visible;    
+        width: auto;            
         color: #B9121B;
     }
 
