@@ -28,24 +28,24 @@
     });
 
     // Fit Text Plugin for Main Header
-    $("h1").fitText(
-        1.2, {
-            minFontSize: '50px',
-            maxFontSize: '90px'
+    $("header h1 p").fitText(0.8, 
+        {
+            minFontSize: '40px',
+            maxFontSize: '120px'
         }
     );
 
-    $("h3").fitText(
-        1.2, {
-            minFontSize: '30px',
-            maxFontSize: '60px'
+    $("header h2").fitText(1.2, 
+        {
+            minFontSize: '35px',
+            maxFontSize: '70px'
         }
     );
 
-    $("h4").fitText(
-        3, {
-            minFontSize: '15px',
-            maxFontSize: '25px'
+    $("header h3").fitText(3,
+        {
+            minFontSize: '12px',
+            maxFontSize: '30px'
         }
     );
 

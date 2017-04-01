@@ -26,16 +26,15 @@ googleAnalytics = ""
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
 
-
 	# Navigation
 	[params.navigation]
 		brand = "Mittelalterliches Specktakel"
 
 		[params.navigation.links]
 			highlights = "Highlights"
-			agenda = "Tagesprogramm"
+			agenda = "Programm"
 			contact = "Kontakt"
-			location = "Veranstaltungsort"
+			location = "Anreise"
 
 	# Hero section
 	[params.hero]
@@ -48,7 +47,7 @@ googleAnalytics = ""
 	# About section
 	[params.about]
 		headline    = "Seid gerüßt, liebe Freunde des mittelalterliches Treibens"
-		description = "nun zum 4. Mal findet der mittelalterliche Markt statt. Dieses Jahr als Mittelalterliches Spe“c”ktakel 2017. Was einmal klein und nur auf dem Gelände des SoVDs begann, wird nun zum dritten Mal auf der ehemaligen Festwiese des Stadtteils Gliesmarode stattfinden. Aber auch im BegegnungsZentrum Gliesmarode wird wieder mittelalterlich ausgestellt. Wir haben ein buntes Veranstaltungsprogramm zum Staunen, Mitmachen und Genießen für euch zusammengestellt und hoffen, euch wieder bestens unterhalten zu können. Für das leibliche Wohl ist natürlich auch wieder gesorgt: Ob wohlschmeckendes Pfannenbrot, Bratwurst, veganer Eintopf oder Met aus eigener Herstellung – hier ist für jeden etwas dabei. <br><br> Viel Spaß auf dem 4. mittelalterlichen Markt wünschen euch die Organisatoren und alle Markttreibenden. <br><br> Thomas Rösler (Ulf der Bäcker)"
+		description = "nun zum **4. Mal** findet der mittelalterliche Markt statt. Dieses Jahr als Mittelalterliches Spe“c”ktakel 2017. Was einmal klein und nur auf dem Gelände des SoVDs begann, wird nun zum dritten Mal auf der ehemaligen Festwiese des Stadtteils Gliesmarode stattfinden. Aber auch im **BegegnungsZentrum Gliesmarode** wird wieder mittelalterlich ausgestellt. Wir haben ein buntes Veranstaltungsprogramm zum Staunen, Mitmachen und Genießen für euch zusammengestellt und hoffen, euch wieder bestens unterhalten zu können. Für das leibliche Wohl ist natürlich auch wieder gesorgt: Ob wohlschmeckendes Pfannenbrot, Bratwurst, veganer Eintopf oder Met aus eigener Herstellung – hier ist für jeden etwas dabei. <br><br> Viel Spaß auf dem 4. mittelalterlichen Markt wünschen euch die Organisatoren und alle Markttreibenden. <br><br> Thomas Rösler (Ulf der Bäcker)"
 
 	[params.program]
 		title = "Weiters Angebot"
@@ -86,16 +85,33 @@ googleAnalytics = ""
 		[[params.program.items]]
 				title = "Stockbrot"
 
-	# Contact section
-	[params.contact]
-		phone = "+49-160-97363699"
-		email = "trichterwolke@outlook.com"
-		facebook = "https://facebook.com/BSCastellum"
-
 	# Google Maps section
-	 [params.location]
+	[params.location]
 	 	latitude  = "52.27721"
 	 	longitude = "10.55484"
 	    address = "Am Soolanger 1, 38104 Braunschweig"
 		content = "<b>BegegnungsZentrum</b><br>Am Soolanger 1<br>38104 Braunschweig"
 	 	maps_api_key = "AIzaSyAy5fmQodq5Cf3UbFPxuEJ4nb6AavuuY_Q"
+
+    [params.location.contact]
+	    title = "Standort des Marktes:"
+		company = "BZG – BegegnungsZentrum Gliesmarode"
+		street = "Am Soolanger 1a"
+		city = "38104 Braunschweig"
+
+
+    [params.contact.facebook]
+	 	title = "Unsere Facebook-Seite"
+		link = "https://www.facebook.com/BSCastellum/"     
+		
+	[params.contact.twitter]
+	 	title = "Unser Twitter-Account"
+		link = ""     
+		
+	[params.contact.googleplus]
+	 	title = "Google+"
+		link = ""
+
+	# Footer
+	[params.footer.photo]
+	     title = "Fotografie Sarah Ringleb"

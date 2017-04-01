@@ -19,6 +19,7 @@ body {
 body {
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     background:#FCFAE2;/* #FCFAE1;*/
+    color: #222;
 }
 
 hr {
@@ -33,7 +34,8 @@ hr.light {
 
 a {
   /*  text-transform: none;*/
-    color: #3D2E17;
+    /*color: #3D2E17;*/
+    color: #222;
 }
 
 a:hover,
@@ -41,7 +43,7 @@ a:focus {
     color: #B9121B;
     text-decoration: none;
 }
-
+/*
 #about a {
     color: rgba(52, 52, 52, .7);
 }
@@ -50,23 +52,21 @@ a:focus {
 #about a:focus {
     color: rgb(52, 52, 52);
 }
-
+*/
 h1, 
-h2, 
-h3 { 
+h2 { 
     font-family: 'Old London', cursive, 'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
 } 
 
+h3,
 h4, 
 h5,
 h6 { 
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
 }
 
-
-
 h1 {
-    font-size: 4em;
+    font-size: 5em;
 }
 
 h2 {
@@ -74,24 +74,25 @@ h2 {
 }
 
 h3 { 
-    font-size: 3em;
-}
-
-h4 {
-    font-size: 1.2em;
+    font-size: 2em;
     font-weight: bold;
     text-transform: uppercase;
 }
 
+h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+}
+
 h5 {
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
 h6 {
     font-size: 1em;
 }
-
 
 h1:first-letter,
 h2:first-letter { 
@@ -135,11 +136,6 @@ aside {
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    /*
-    -webkit-transition-delay: .35s;
-    -moz-transition-delay: .35s;
-    transition-delay: .35s;
-*/
     -webkit-transition: all 333ms;
     -moz-transition: all 333ms;
     transition: all 333ms;
@@ -173,7 +169,7 @@ aside {
 
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-    color: #B9121B!important;
+    color: #B9121B !important;
     background-color: transparent;
 }
 
@@ -202,7 +198,7 @@ aside {
         margin: 2em 4em 0 0;
         transition: all 350ms; 
     }
-    
+
     .navbar-default.affix .nav {    
         transition: all 350ms; 
     }
@@ -272,7 +268,6 @@ header {
                 0 0 40px black;
 }
 
-
 header .header-content {
     position: relative;
     width: 100%;
@@ -280,16 +275,41 @@ header .header-content {
     text-align: center;
 }
 
-header .header-content .header-content-inner hr {
-    margin: 30px auto;
+header h1 p::first-letter {
+    font-size: 150%;
+    color: #B9121B;
 }
 
-header .header-content .header-content-inner p {
-    margin-bottom: 50px;
-    color: rgba(255,255,255,.7);
+header h1 p {
+    line-height: 1;
+    margin: 0;
+}
+
+header h2::first-letter {
+    font-size: inherit;
+    color: inherit;
+}
+
+header h3 {
+    margin: 26px;
+}
+
+.header-button {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    text-align:center; 
+    width: 100%;
+    visibility: hidden;
+    transition: none;
 }
 
 @media(min-width:768px) {
+
+    .header-button {
+        visibility: visible;
+    }
+
     header {
         min-height: 100%;
     }
@@ -359,6 +379,7 @@ header .header-content .header-content-inner p {
 }
 
 .program-box:hover .program-name {
+    color: white;
     background: #E31621;
 }
 
@@ -385,7 +406,6 @@ header .header-content .header-content-inner p {
 }
 /*** PROGRAM ***/
 .program-name {
-        
     text-align: center;
     text-transform: uppercase;
     font-size: 22px;
@@ -512,7 +532,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
     border-color: #B9121B;
-    color: #fff;
+    color: white;
     background-color: #E31621;
 }
 
@@ -584,11 +604,11 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #3D2E17;
+    -webkit-tap-highlight-color: #3D2E17;
 }
 
 #map {
-    height: 400px;
+    height: 500px;
     overflow: visible;
     position: relative;
 }
@@ -701,4 +721,38 @@ ul {
 
 .label-rot p {
       margin-bottom: 0;
+}
+
+.contact p {
+    margin: 6px 0;
+}
+
+.contact a {
+    font-size: 1.5em;
+}
+
+.contact {
+    margin-bottom: 2em;
+}
+
+.social-title {
+    margin: 0 0 0 0.5em;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    height: 2.5em;
+}
+
+.social-list {
+    margin-bottom: 1em;
+}
+
+.footer-text {
+    font-size: 1.2em;
+    color: #FCFAE2;
+}
+
+.footer > a {
+    color: #FCFAE2;
 }

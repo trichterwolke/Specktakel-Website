@@ -5,25 +5,27 @@
             {{ with .Site.Params.hero.ordinal }}
                 <h3>{{ . }}</h3>
             {{ end }}
+            <h1>
             {{ with .Site.Params.hero.firstHeadline }}
-                <h1>{{ . }}</h1>
-            {{ end }}
+                <p> {{ . }} </p>
+            {{ end }}            
             {{ with .Site.Params.hero.secondHeadline }}
-                <h1>{{ . }}</h1>
+                <p> {{ . }} </p>
             {{ end }}
+            </h1>
             {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
                 <hr>
             {{ end }}
             {{ with .Site.Params.hero.date }}
-                <h3>{{ . }}</h3>
+                <h2>{{ . }}</h2>
             {{ end }}
             {{ with .Site.Params.hero.location }}
-                <h4 style="margin-top: 1.4em">{{ . }}</h4>
+                <h3>{{ . }}</h3>
             {{ end }}
         </div>
     </div>
 </header>
-<div class="header-content" style="position: absolute; bottom: 0; left: 0; text-align: center; width: 100%">
+<div class="header-button">
     <a href="#about" class="btn-shadow zoom page-scroll" style="position: relative; bottom: 0; display: inline-block;" >
         <i class="fa fa-angle-double-down fa-4x"></i>
     </a>

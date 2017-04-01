@@ -1,14 +1,27 @@
 {{ "<!-- LOCATION -->" | safeHTML }}
 {{ if and .latitude .longitude }}
-<section id="location">
+<section id="location">    
     <div class="hidden">
         <input id="gmap-lat" value="{{ .latitude }}" />
         <input id="gmap-lng" value="{{ .longitude }}" />
         <input id="address" value="{{ .address }}" />
         <input id="content" value="{{ .content }}" />
     </div>
-    <div id="map">
-        &nbsp;
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Hier sind wir zu finden</h2>
+                <hr class="primary">
+            </div>
+        </div>   
+        <div class="row">                        
+            <div class="col-sm-5 col-sm-offset-4">
+                {{ partial "contact.html" .contact }}
+            </div>
+        </div> 
+        <div id="map">
+            &nbsp;
+        </div>
     </div>
 </section>
 {{ end }}

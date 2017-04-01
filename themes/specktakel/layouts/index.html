@@ -20,18 +20,22 @@
 
         {{ partial "program.html" .Site.Params.program }}
     
-        {{ if .Site.Data.agenda }}
-            {{ partial "agenda.html" .Site.Data.agenda }}
-        {{ end }}
-        
-        {{ partial "organisation.html" . }}
-
         {{ if .Site.Params.location }}
             {{ partial "location.html" .Site.Params.location }}
         {{ end }}
 
-        {{ if .Site.Params.contact }}
-            {{ partial "contact.html" . }}
+        {{ if .Site.Data.agenda }}
+            {{ partial "agenda.html" .Site.Data.agenda }}
+        {{ end }}
+
+        {{ if .Site.Data.contact }}
+            {{ partial "contacts.html" . }}
+        {{ end }}
+        
+        {{ partial "organisation.html" . }}
+
+        {{ if .Site.Params.footer }}
+            {{ partial "footer.html" .Site.Params.footer }}
         {{ end }}
 
         {{ partial "js.html" . }}
