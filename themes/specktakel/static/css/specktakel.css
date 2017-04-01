@@ -3,7 +3,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-/*@import url(http://fonts.googleapis.com/css?family=Uncial+Antiqua);*/
+
 @font-face {
     font-family: 'Old London';
     src: url('../fonts/OldLondon.ttf');
@@ -131,10 +131,11 @@ aside {
     padding: 0;
 }
 
-/** Navbar **/
+/*** NAVBAR ***/
 
 .navbar-default {
     border-color: rgba(34,34,34,.05);
+    background: #FCFAE2;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     -webkit-transition: all 333ms;
     -moz-transition: all 333ms;
@@ -404,6 +405,7 @@ header h3 {
     -moz-transition: all 333ms;
     transition: all 333ms;
 }
+
 /*** PROGRAM ***/
 .program-name {
     text-align: center;
@@ -748,11 +750,18 @@ ul {
     margin-bottom: 1em;
 }
 
-.footer-text {
-    font-size: 1.2em;
+.footer-icon {    
     color: #FCFAE2;
 }
 
-.footer > a {
-    color: #FCFAE2;
+.footer-icon:hover {
+    color: #B9121B; 
+}
+
+.footer-text {
+    font-size: 1.2em;
+    color: #FCFAE2;    
+    display: inline-block;
+    vertical-align: middle;
+    height: 0.4em;
 }

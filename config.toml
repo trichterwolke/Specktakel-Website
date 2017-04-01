@@ -32,9 +32,9 @@ googleAnalytics = ""
 
 		[params.navigation.links]
 			highlights = "Highlights"
+			location = "Anfahrt"
 			agenda = "Programm"
 			contact = "Kontakt"
-			location = "Anreise"
 
 	# Hero section
 	[params.hero]
@@ -100,18 +100,9 @@ googleAnalytics = ""
 		city = "38104 Braunschweig"
 
 
-    [params.contact.facebook]
-	 	title = "Unsere Facebook-Seite"
+	# Footer
+    [params.footer.facebook]
 		link = "https://www.facebook.com/BSCastellum/"     
 		
-	[params.contact.twitter]
-	 	title = "Unser Twitter-Account"
-		link = ""     
-		
-	[params.contact.googleplus]
-	 	title = "Google+"
-		link = ""
-
-	# Footer
 	[params.footer.photo]
-	     title = "Fotografie Sarah Ringleb"
+	    title = "Fotos: Sarah Ringleb"
