@@ -167,6 +167,14 @@ aside {
     background-color: transparent;
 }
 
+
+
+       .navbar-default .navbar-header .navbar-brand {
+        visibility: visible;     
+        width: none;
+    } 
+
+
 @media(min-width:768px) {
     .navbar-default {
         border: none;
@@ -175,12 +183,8 @@ aside {
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        visibility: hidden;
-    }
-
-    .navbar-default .navbar-header .navbar-brand:hover,
-    .navbar-default .navbar-header .navbar-brand:focus {
-        color: #FCFAE2;
+        visibility: hidden;        
+        width: 0;
     }
 
     .navbar-default.affix-top .nav {        
@@ -192,8 +196,7 @@ aside {
         transition: all 333ms; 
     }
 
-    .navbar-default.affix-top .nav > li > a
-    {
+    .navbar-default.affix-top .nav > li > a {
         font-size: 0.8em;
         text-shadow: 0 0  5px black,
                      0 0 10px black,
@@ -239,7 +242,7 @@ aside {
     }
 }
 
-/** Header **/
+/** HEADER **/
 
 header {
     position: relative;
@@ -330,21 +333,6 @@ header h3 {
 
 .section-heading {
     margin-top: 0;
-}
-
-
-@media(min-width:992px) {
-    .service-box {
-        margin: 20px auto 0;
-    }
-}
-
-.service-box p {
-    margin-bottom: 0;
-}
-
-.service-name {
-    height: 2.5em;
 }
 
 /* PROGRAM-BOX */
