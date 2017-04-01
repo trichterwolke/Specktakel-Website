@@ -18,7 +18,7 @@ body {
 
 body {
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    background:#FCFAE2;/* #FCFAE1;*/
+    background:#FCFAE2;
     color: #222;
 }
 
@@ -33,8 +33,6 @@ hr.light {
 }
 
 a {
-  /*  text-transform: none;*/
-    /*color: #3D2E17;*/
     color: #222;
 }
 
@@ -43,16 +41,7 @@ a:focus {
     color: #B9121B;
     text-decoration: none;
 }
-/*
-#about a {
-    color: rgba(52, 52, 52, .7);
-}
 
-#about a:hover,
-#about a:focus {
-    color: rgb(52, 52, 52);
-}
-*/
 h1, 
 h2 { 
     font-family: 'Old London', cursive, 'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
@@ -82,7 +71,6 @@ h3 {
 h4 {
     font-size: 1.5em;
     font-weight: bold;
-    /*text-transform: uppercase;*/
 }
 
 h5 {
@@ -197,11 +185,11 @@ aside {
 
     .navbar-default.affix-top .nav {        
         margin: 2em 4em 0 0;
-        transition: all 350ms; 
+        transition: all 333ms; 
     }
 
     .navbar-default.affix .nav {    
-        transition: all 350ms; 
+        transition: all 333ms; 
     }
 
     .navbar-default.affix-top .nav > li > a
@@ -215,11 +203,13 @@ aside {
     .navbar-default .nav > li > a,
     .navbar-default .nav > li > a:focus {
         color: #FCFAE2;
+        transition: all 333ms;
     }
 
     .navbar-default .nav > li > a:hover,
     .navbar-default .nav > li > a:focus:hover {
-        color: #FCFAE2;
+        color: #FCFAE2;        
+        transform: scale(1.2);    
     }
 
     .navbar-default.affix {
@@ -677,30 +667,24 @@ ul {
     margin: 0.5em;
 }
 
-.btn-shadow{
+.btn-shadow {
     color: #FCFAE2;
     text-shadow:0 0 5px black,
                 0 0 10px black,
                 0 0 20px black,
-                0 0 40px black;
-}
-
-.btn-shadow:hover, 
-.btn-shadow:focus,
-.btn-shadow:active{    
-    color: #FCFAE2;
-}
-
-.zoom {
+                0 0 40px black; 
     -webkit-transition: all 333ms;
     -moz-transition: all 333ms;
     transition: all 333ms;
 }
 
-.zoom:hover {    
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.15);    
+.btn-shadow:hover, 
+.btn-shadow:focus,
+.btn-shadow:active{    
+    color: #FCFAE2;    
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.25);  
 }
 
 .label-rot {
@@ -764,4 +748,8 @@ ul {
     display: inline-block;
     vertical-align: middle;
     height: 0.4em;
+}
+
+.agenda-table {
+    width: 100%;
 }
