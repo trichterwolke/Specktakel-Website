@@ -44,7 +44,7 @@
 
     $("header h3").fitText(3,
         {
-            minFontSize: '18px',
+            minFontSize: '16px',
             maxFontSize: '30px'
         }
     );
