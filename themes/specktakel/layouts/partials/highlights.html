@@ -7,10 +7,10 @@
                 <hr class="primary">
             </div>
         </div>
-        <div class="row">
+        <div class="row text-center">
             {{ range . }}
                 <div class="col-lg-4 col-sm-6">
-                    <a href="{{ .URL }}" class="program-box portfolio-link" data-toggle="modal">                
+                    <a href="{{ .URL }}" class="program-box" data-toggle="modal">                
                         <img src="{{ .URL }}{{ .Params.thumbnail }}" class="img-responsive" alt="{{ .Title }}">                                                         
                         {{ with .Title }}
                             <div class="program-name">

@@ -6,19 +6,15 @@
                 <h2 class="section-heading">{{ .title }}</h2>
                 <hr class="primary">
             </div>
-            <div class="row">
-                {{ range .items }}
-                <div class="col-lg-4 col-sm-6">
-                    <!--div class="program-content"-->
-                        {{ with .title }}
-                        <div class="program-name">
-                            {{ . }}
-                        </div>
-                        {{ end }}
-                    <!--/div-->
-                </div>
-                {{ end }}
+        </div>
+        <div class="row">
+            {{ range .items }}
+            <div class="col-lg-4 col-sm-6">    
+                <div class="program-name">
+                    {{ .title }}
+                </div>                
             </div>
+            {{ end }}            
         </div>
     </div>
 </section>
