@@ -1,14 +1,16 @@
 {{ "<!-- FOOTER -->" | safeHTML }}
-<section class="bg-dark" style="padding: 2em; margin-top: 6em" id="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-2 col-md-offset-1 col-md-1">
-                <a target="_blank" href="{{ .facebook.link }}"> 
-                    <i class="fa fa-facebook-official fa-3x footer-icon"></i>
-                </a>
+<section class="bg-dark" id="footer">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 col-md-offset-1 col-md-1">
+                    <a target="_blank" href="{{ .facebook.link }}">
+                        <i class="fa fa-facebook-official fa-3x footer-icon"></i>
+                    </a>
+                </div>
+                <div class="col-sm-7 col-md-offset-1 col-md-6"><span class="footer-text">{{ .photo.title }}</span></div>
+                <div class="col-sm-3 col-md-offset-1 col-md-2"><a class="footer-text" href="{{ .URL }}/impressum">Impressum</a></div>
             </div>
-            <div class="col-xs-7 col-md-offset-1 col-md-6"><span class="footer-text">{{ .photo.title }}</span></div>
-            <div class="col-xs-3 col-md-offset-1 col-md-2"><a class="footer-text" href="{{ .URL }}/impressum">Impressum</a></div>
         </div>
-    </div>
+        <footer>
 </section>

@@ -16,9 +16,14 @@
             {{ partial "about.html" . }}
         {{ end }}
         
-        {{ partial "highlights.html" . }}
+        {{ $highlights := where .Site.Pages "Section" "highlights" }}
+        {{ if $highlights }}
+            {{ partial "highlights.html" $highlights }}
+        {{ end }}
 
-        {{ partial "program.html" .Site.Params.program }}
+        {{ if .Site.Params.program }}
+            {{ partial "program.html" .Site.Params.program }}
+        {{ end }}
     
         {{ if .Site.Params.location }}
             {{ partial "location.html" .Site.Params.location }}
@@ -32,7 +37,10 @@
             {{ partial "contacts.html" . }}
         {{ end }}
         
-        {{ partial "organisation.html" . }}
+        {{ $orga := where .Site.Pages "Section" "orga" }}
+        {{ if $orga }}
+            {{ partial "organisation.html" $orga }}
+        {{ end }}
 
         {{ if .Site.Params.footer }}
             {{ partial "footer.html" .Site.Params.footer }}

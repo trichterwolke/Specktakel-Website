@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="row">
-            {{ range .Site.Data.contact }}
+            {{ range sort .Site.Data.contact "weight" }}
             <div class="col-md-5 col-md-offset-1 col-sm-6 col-xs-12">
                 {{ partial "contact.html" . }}
             </div>     

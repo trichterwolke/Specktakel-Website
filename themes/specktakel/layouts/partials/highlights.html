@@ -8,10 +8,10 @@
             </div>
         </div>
         <div class="row">
-            {{ range where .Site.Pages "Section" "highlights"  }}
+            {{ range . }}
                 <div class="col-lg-4 col-sm-6">
                     <a href="{{ .URL }}" class="program-box portfolio-link" data-toggle="modal">                
-                        <img src="{{ .URL }}{{ .Params.thumbnail }}" class="img-responsive" alt="">                                                         
+                        <img src="{{ .URL }}{{ .Params.thumbnail }}" class="img-responsive" alt="{{ .Title }}">                                                         
                         {{ with .Title }}
                             <div class="program-name">
                                 {{ . }}

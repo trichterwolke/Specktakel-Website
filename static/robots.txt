@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /impressum/
+
+
+Sitemap: sitemap.xml

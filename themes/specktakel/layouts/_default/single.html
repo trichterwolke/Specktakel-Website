@@ -15,7 +15,7 @@
                 <hr class="star-primary">
             {{ end }}
             {{ if .Params.image }}            
-            <img src="{{ .URL }}{{ .Params.image }}" class="img-responsive img-centered" alt="">
+            <img src="{{ .URL }}{{ .Params.image }}" class="img-responsive img-centered" alt="{{ .Title }}">
             {{ end }}
             <p>{{ .Content }}</p>                      
         </div>

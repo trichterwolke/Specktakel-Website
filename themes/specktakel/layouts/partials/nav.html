@@ -31,7 +31,7 @@
                     <a class="page-scroll" href="#location">{{ .Site.Params.navigation.links.location }}</a>
                 </li>
                 {{ end }}
-                {{ if .Site.Params.navigation.links.agenda }}
+                {{ if and .Site.Params.navigation.links.agenda .Site.Data.agenda }}
                     <li>
                         <a class="page-scroll" href="#agenda">{{ .Site.Params.navigation.links.agenda }}</a>
                     </li>
