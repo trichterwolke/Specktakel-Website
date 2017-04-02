@@ -99,7 +99,6 @@ googleAnalytics = ""
 		street = "Am Soolanger 1a"
 		city = "38104 Braunschweig"
 
-
 	# Footer
     [params.footer.facebook]
 		link = "https://www.facebook.com/BSCastellum/"     
