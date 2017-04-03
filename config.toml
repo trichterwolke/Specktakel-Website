@@ -26,6 +26,8 @@ googleAnalytics = ""
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
 
+	foo = "foo"
+
 	# Navigation
 	[params.navigation]
 		brand = "Mittelalterliches Specktakel"
@@ -84,6 +86,9 @@ googleAnalytics = ""
 
 		[[params.program.items]]
 				title = "Stockbrot"
+
+	[[params.agenda]]
+		headline = "Programmablauf"
 
 	# Google Maps section
 	[params.location]

@@ -1,12 +1,17 @@
 {{ "<!-- AGENDA -->" | safeHTML }}
-{{ range . }}
 <section id="agenda"> 
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{ .headline }}</h2>
-                <h3>{{ .date }}</h3>
+                <h2 class="section-heading">Programmablauf</h2>        
                 <hr class="primary">
+            </div>
+        </div>
+        {{ range . }}
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3>{{ .headline }} – {{ .date }}</h3>
+                <!--hr class="primary"-->
             </div>
         </div>
         <div class="row">
@@ -20,7 +25,7 @@
                     {{ end }}
                 </table>
             </div>
-        </div>
+        </div>        
+        {{ end }}
     </div>      
 </section>
-{{ end }}

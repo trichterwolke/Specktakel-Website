@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="row text-center">
-            {{ range . }}
+            {{ range where .Site.Pages "Section" "highlights"  }}
                 <div class="col-lg-4 col-sm-6">
                     <a href="{{ .URL }}" class="program-box" data-toggle="modal">                
                         <img src="{{ .URL }}{{ .Params.thumbnail }}" class="img-responsive" alt="{{ .Title }}">                                                         
@@ -20,6 +20,20 @@
                     </a>
                </div>
             {{ end }}                   
+        </div>
+        <div class="row text-center">
+            <h3>Weitere Attraktionen</h3>
+        </div>
+        <div class="row">
+            {{ range .Site.Params.program.items }}
+            <div class="col-lg-4 col-sm-6">
+                {{ with .title }}
+                <div class="program-name">
+                    {{ . }}
+                </div>   
+                {{ end }}             
+            </div>
+            {{ end }}
         </div>
     </div>
 </section>

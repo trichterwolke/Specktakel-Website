@@ -63,9 +63,10 @@ h2 {
 }
 
 h3 { 
-    font-size: 2em;
+    font-size: 1.7em;    
     font-weight: bold;
     text-transform: uppercase;
+    margin-bottom: 1.2em;
 }
 
 h4 {
@@ -638,7 +639,7 @@ td.time {
 
 td.event{
     width: auto;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 ul {
