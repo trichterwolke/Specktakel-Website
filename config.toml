@@ -1,4 +1,4 @@
-baseurl = "https://trichterwolke.github.io/specktakel/"
+baseurl = "https://www.mittelaltermarkt-braunschweig.de"
 languageCode = "de-de"
 title = "Mittelalterliches Specktakel"
 theme = "specktakel"
@@ -26,8 +26,6 @@ googleAnalytics = ""
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
 
-	foo = "foo"
-
 	# Navigation
 	[params.navigation]
 		brand = "Mittelalterliches Specktakel"
@@ -52,7 +50,7 @@ googleAnalytics = ""
 		description = "nun zum **4. Mal** findet der mittelalterliche Markt statt. Dieses Jahr als Mittelalterliches Spe“c”ktakel 2017. Was einmal klein und nur auf dem Gelände des SoVDs begann, wird nun zum dritten Mal auf der ehemaligen Festwiese des Stadtteils Gliesmarode stattfinden. Aber auch im **BegegnungsZentrum Gliesmarode** wird wieder mittelalterlich ausgestellt. Wir haben ein buntes Veranstaltungsprogramm zum Staunen, Mitmachen und Genießen für euch zusammengestellt und hoffen, euch wieder bestens unterhalten zu können. Für das leibliche Wohl ist natürlich auch wieder gesorgt: Ob wohlschmeckendes Pfannenbrot, Bratwurst, veganer Eintopf oder Met aus eigener Herstellung – hier ist für jeden etwas dabei. <br><br> Viel Spaß auf dem 4. mittelalterlichen Markt wünschen euch die Organisatoren und alle Markttreibenden. <br><br> Thomas Rösler (Ulf der Bäcker)"
 
 	[params.program]
-		title = "Weiters Angebot"
+		headline = "Weiters Angebot"
 
 		[[params.program.items]]
 				title = "Hornarbeiten"
@@ -92,6 +90,7 @@ googleAnalytics = ""
 
 	# Google Maps section
 	[params.location]
+	    headline = "Hier sind wir zu finden"
 	 	latitude  = "52.27721"
 	 	longitude = "10.55484"
 	    address = "Am Soolanger 1, 38104 Braunschweig"

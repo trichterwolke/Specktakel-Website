@@ -20,11 +20,7 @@
         {{ if $highlights }}
             {{ partial "highlights.html" . }}
         {{ end }}
-    <!--
-        {{ if .Site.Params.program }}
-            {{ partial "program.html" .Site.Params.program }}
-        {{ end }}
--->
+
         {{ if .Site.Params.location }}
             {{ partial "location.html" .Site.Params.location }}
         {{ end }}        
