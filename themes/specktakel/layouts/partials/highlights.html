@@ -25,13 +25,17 @@
             <h3>Weitere Attraktionen</h3>
         </div>
         <div class="row">
-            {{ range .Site.Params.program.items }}
-            <div class="col-lg-4 col-sm-6">
-                {{ with .title }}
-                <div class="program-name">
-                    {{ . }}
-                </div>   
-                {{ end }}             
+            {{ range where .Site.Pages "Section" "programm"  }}
+            <div class="col-lg-4 col-sm-6">                
+                {{ if .Content }}
+                <a href="{{ .URL }}">
+                {{ end }}
+                    <div class="program-name">
+                    {{ .Title }}
+                    </div>   
+                {{ if .Content}}
+                </a>         
+                {{ end }}
             </div>
             {{ end }}
         </div>
