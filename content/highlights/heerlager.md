@@ -17,7 +17,7 @@ Unser Lager ist offen für neugierige und interessierte Besucher.
 [ex-orbis-alius.de](http://www.ex-orbis-alius.de)
 
 ### Castellum ex variis contextum
-Unser Name bedeuted frei übersetzt „Kleines Lager, welches Unterschiede vereint“. 
+Unser Name bedeutet frei übersetzt „Kleines Lager, welches Unterschiede vereint“. 
 Wir möchten damit zum Ausdruck bringen, dass wir stolz sind solch eine vielfältige Gruppe zu sein,
 die sich jedoch durch Freundschaft und das Interesse am mittelalterlichen Lagerleben vereint. 
 In unserer Darstellung sind wir nicht auf eine bestimmte Region oder Epoche festgelegt und auch dem Phantastischen gegenüber aufgeschlossen. 
