@@ -1,3 +1,2 @@
 User-agent: *
 Disallow: /impressum/
-Sitemap: http://www.mittelaltermarkt-braunschweig.de/sitemap.xml

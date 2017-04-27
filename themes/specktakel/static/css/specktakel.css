@@ -33,13 +33,13 @@ hr.light {
 }
 
 a {
-    color: #222;
+    color: #B9121B;
 }
 
 a:hover,
 a:focus {
     color: #B9121B;
-    text-decoration: none;
+    /*text-decoration: none;*/
 }
 
 h1, 
@@ -347,6 +347,7 @@ header h3 {
 
 .program-box:hover {
     color:#FCFAE2;
+    text-decoration: none;
 }
 .program-box .program-name {    
     background-color: #B9121B;
