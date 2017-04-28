@@ -1,6 +1,6 @@
 +++
 weight = 2
-title = "Pfannenbäcker"
+title = "Pfannenbrotbäcker"
 thumbnail = "thumb.jpg"
 image = "large.jpg"
 +++

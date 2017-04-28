@@ -46,8 +46,25 @@ googleAnalytics = ""
 
 	# About section
 	[params.about]
-		headline    = "Seid gerüßt, liebe Freunde des mittelalterliches Treibens"
-		description = "nun zum 4. Mal findet der mittelalterliche Markt statt. Dieses Jahr als Mittelalterliches Spe“c”ktakel 2017. Was einmal klein und nur auf dem Gelände des SoVDs begann, wird nun zum vierten Mal auf der ehemaligen Festwiese des Stadtteils Gliesmarode stattfinden. Aber auch im **BegegnungsZentrum Gliesmarode** wird wieder mittelalterlich ausgestellt. Wir haben ein buntes Veranstaltungsprogramm zum Staunen, Mitmachen und Genießen für euch zusammengestellt und hoffen, euch wieder bestens unterhalten zu können. Für das leibliche Wohl ist natürlich auch wieder gesorgt: Ob wohlschmeckendes Pfannenbrot, Bratwurst, veganer Eintopf oder Met aus eigener Herstellung – hier ist für jeden etwas dabei. <br><br> Viel Spaß auf dem **4. mittelalterlichen Markt** wünschen euch die Organisatoren und alle Markttreibenden. <br><br> Thomas Rösler (Ulf der Bäcker)"
+		headline    = "Seid gegrüßt, Freunde des mittelalterliches Treibens"
+		description = """zum 4. Mal findet das mittelalterliche Spe“c”ktakel 2017 in Braunschweig statt.
+
+Was einmal kleiner Mittelatlermarkt und nur auf dem Gelände des SoVD begann, wird nun zum vierten Mal auf der ehemaligen Festwiese des Stadtteils Gliesmarode stattfinden. 
+
+Im **BegegnungsZentrum Gliesmarode** wird es eine Ausstellung zum 100 jährigen Bestehen des SoVD geben. 
+Ebenso sind dieses mal das Schwimmbad Gliesmarode, der Schützenverein Gliesmarode sowie der Kleingartenverein Gliesmarode mit an Bord und werden jeweils Attraktionen bieten.
+
+Wir haben ein buntes Veranstaltungsprogramm zum Staunen, Mitmachen und Genießen für euch zusammengestellt und hoffen, euch wieder bestens unterhalten zu können. 
+
+Für das leibliche Wohl ist natürlich auch wieder gesorgt: 
+Ob wohlschmeckendes Pfannenbrot, Bratwurst, veganer Eintopf oder Met aus eigener Herstellung – hier ist für jeden etwas dabei. 
+
+Viel Spaß auf dem **4. mittelalterlichen Markt** wünschen euch die Organisatoren und alle Markttreibenden. 
+ 
+Euer Orgateam:  
+**Ulf der Bäcker** (Thomas Rösler) / Organisatorisches / Marktvoigt  
+**Jens Leipelt** / Organisatorisches  
+**Boris Pawlik** / Organisatorisches"""
 
 	[params.program]
 		headline = "Weiters Angebot"
