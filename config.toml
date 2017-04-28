@@ -1,6 +1,6 @@
 baseurl = "http://www.mittelaltermarkt-braunschweig.de"
 languageCode = "de-de"
-title = "Mittelalterliches Specktakel"
+title = "Mittelalterliches Specktakel – Mittelaltermarkt in Braunschweig"
 theme = "specktakel"
 googleAnalytics = ""
 
@@ -41,7 +41,7 @@ googleAnalytics = ""
 		firstHeadline = "Mittelalterliches"
 		secondHeadline = "Spe“c”ktakel"
 		date = "23. + 24.09.2017"
-		location = "Braunschweig Gliesmarode"
+		location = "Mittelaltermarkt<br>Braunschweig Gliesmarode"
 
 
 	# About section

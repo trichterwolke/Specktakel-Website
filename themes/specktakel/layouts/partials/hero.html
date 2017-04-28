@@ -2,9 +2,6 @@
 <header>
     <div class="header-content">
         <div class="header-content-inner">
-            {{ with .Site.Params.hero.ordinal }}
-                <h3>{{ . }}</h3>
-            {{ end }}
             <h1>
             {{ with .Site.Params.hero.firstHeadline }}
                 <p> {{ . }} </p>
@@ -19,7 +16,7 @@
             {{ with .Site.Params.hero.date }}
                 <h2>{{ . }}</h2>
             {{ end }}
-            {{ with .Site.Params.hero.location }}
+            {{ with .Site.Params.hero.location | markdownify }}
                 <h3>{{ . }}</h3>
             {{ end }}
         </div>
