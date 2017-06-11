@@ -39,7 +39,6 @@ a {
 a:hover,
 a:focus {
     color: #B9121B;
-    /*text-decoration: none;*/
 }
 
 h1, 
@@ -83,12 +82,27 @@ h6 {
     font-size: 1em;
 }
 
+
+.section-heading:first-letter,
+.page-title::first-letter {
+    font-size: 150%;
+    color: #B9121B;
+}
+
+.page-title {
+    font-size: 5em;    
+    font-family: 'Old London', cursive, 'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
+    font-weight: normal;
+    text-transform: none;
+}
+
+/*
 h1:first-letter,
 h2:first-letter { 
     font-size: 150%;
     color: #B9121B;
 }
-
+*/
 p {
     margin-bottom: 20px;
     font-size: 1.5em;
@@ -269,23 +283,33 @@ header .header-content {
     text-align: center;
 }
 
-header h1 p::first-letter {
+header h2 p::first-letter {
     font-size: 150%;
     color: #B9121B;
 }
 
-header h1 p {
+header h2 p {
     line-height: 1;
     margin: 0;
 }
 
-header h2::first-letter {
+header h3{    
+    font-family: 'Old London', cursive, 'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
+    font-weight: normal;
+    margin: 0px;
+}
+
+header h3::first-letter {
     font-size: inherit;
     color: inherit;
 }
 
-header h3 {
-    margin: 26px;
+header h4, h1 {    
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    text-transform: uppercase;
+    margin: 28px;
+    font-weight: bold;    
+    margin-bottom: -20px; 
 }
 
 .header-button {

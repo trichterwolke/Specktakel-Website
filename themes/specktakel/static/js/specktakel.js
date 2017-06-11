@@ -27,25 +27,26 @@
         $('.navbar-toggle:visible').click();
     });
 
-    // Fit Text Plugin for Main Header
-    $("header h1 p").fitText(0.8, 
+ 
+    // Fit Text Plugin for Main Header   
+    $("header h1").fitText(3,
+        {
+            minFontSize: '20px',
+            maxFontSize: '36px'
+        }
+    );
+
+    $("header h2 p").fitText(0.8, 
         {
             minFontSize: '50px',
             maxFontSize: '120px'
         }
     );
 
-    $("header h2").fitText(1.2, 
+    $("header h3").fitText(1.2, 
         {
-            minFontSize: '45px',
-            maxFontSize: '70px'
-        }
-    );
-
-    $("header h3").fitText(3,
-        {
-            minFontSize: '16px',
-            maxFontSize: '30px'
+            minFontSize: '36px',
+            maxFontSize: '60px'
         }
     );
 

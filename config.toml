@@ -1,6 +1,6 @@
 baseurl = "http://www.mittelaltermarkt-braunschweig.de"
 languageCode = "de-de"
-title = "Mittelalterliches Specktakel – Mittelaltermarkt in Braunschweig"
+title = "Mittelalterliches Specktakel"
 theme = "specktakel"
 googleAnalytics = ""
 
@@ -21,7 +21,7 @@ googleAnalytics = ""
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
 	name = "Thomas Rösler"
-	description = "Das 4. mittelalterliche Specktakel ist ein Mittelaltermarkt in Braunschweig Gliesmarode"
+	description = "Mittelaltermarkt Braunschweig - Das 4. mittelalterliche Specktakel in Braunschweig-Gliesmarode"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
@@ -37,7 +37,7 @@ googleAnalytics = ""
 			contact = "Kontakt"
 
 	# Hero section
-	[params.hero]
+	[params.hero]	     
 		firstHeadline = "Mittelalterliches"
 		secondHeadline = "Spe“c”ktakel"
 		date = "23. + 24.09.2017"

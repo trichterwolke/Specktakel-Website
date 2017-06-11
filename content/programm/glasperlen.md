@@ -2,6 +2,7 @@
 weight = 3
 title = "Glasperlenherstellung"
 image = "large.jpg"
+description = "Die Bjarnessons, zeigen die Herstellung von Glasperlen in einer Esse, um den typischen Schmuck für Wikinger im Frühmittelalter herzustellen."
 +++
 Was wäre das Leben ohne schmückendes Zierwerk?
 
