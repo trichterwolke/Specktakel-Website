@@ -1,5 +1,5 @@
 +++
-weight = 1
+weight = 2
 title = "Schatzsuche"
 image = "large.jpg"
 description = "Eine Schatzsuche für kleine Entdecker"
