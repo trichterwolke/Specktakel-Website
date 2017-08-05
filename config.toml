@@ -21,7 +21,7 @@ googleAnalytics = ""
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
 	name = "Thomas Rösler"
-	description = "Mittelaltermarkt Braunschweig - Das 4. mittelalterliche Specktakel in Braunschweig-Gliesmarode"
+	description = "Mittelaltermarkt Braunschweig - Das 4. mittelalterliche Specktakel ist ein mittelatlericher Markt in Braunschweig-Gliesmarode."
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
