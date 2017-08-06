@@ -662,7 +662,10 @@ table {
     margin: auto;
 }
 td.time {
-    width: 9em;
+    width: 1%;
+    vertical-align: top;
+    padding-right: 1em; 
+    white-space: nowrap;
 }
 
 td.event{

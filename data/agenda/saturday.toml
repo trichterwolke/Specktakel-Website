@@ -1,0 +1,42 @@
+headline = "Samstag"
+date = "23.09.2017"
+
+[[items]]
+    time = "11:30"
+    event = "Einlass"
+
+[[items]]
+    time = "12:00"
+    event = "Markteröffnung durch den Marktvogt mit Porterra"
+
+[[items]]
+    time = "12:15"
+    event = "Schmied"    
+
+[[items]]
+    time = "13:30"
+    event = "Glasperlen"
+
+[[items]]
+    time = "14:30"
+    event = "Porterra mit Tanzgruppe Danzlui'e Brunswiek"
+
+[[items]]
+    time = "16:00"
+    event = "Steinmetz"
+
+[[items]]
+    time = "17:00"
+    event = "Showkampf"
+
+[[items]]
+    time = "18:00"
+    event = "Tanzgruppe Tribe Akephalie"
+
+[[items]]
+    time = "19:00"
+    event = "Porterra Abendkonzert"
+
+[[items]]
+    time = "22:00"
+    event = "Marktende"
