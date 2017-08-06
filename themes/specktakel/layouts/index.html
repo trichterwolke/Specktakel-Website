@@ -38,6 +38,10 @@
             {{ partial "organisation.html" $orga }}
         {{ end }}
 
+        {{ if .Site.Params.sponsoren }}
+            {{ partial "sponsoren.html" . }}
+        {{ end }}
+
         {{ if .Site.Params.footer }}
             {{ partial "footer.html" .Site.Params.footer }}
         {{ end }}
