@@ -4,7 +4,7 @@ title = "Musik"
 thumbnail = "thumb.jpg"
 image = "large.jpg"
 +++
-Wir sind **Porterra**, eine fünfköpfige Band aus Braunschweig, die seit 2008 in immer wechselnder Besetzung Musik mit mittelalterlichen Einflüssen macht.
+Die Spielleyt der Kumpanei **Porterra** bieten euch die beliebten Weisen vergangener Zeit und laden ein zum Tanz und Gesang"
 
 [facebook.com/porterrabs](https://www.facebook.com/porterrabs)  
 [www.porterra.net](http://www.porterra.net)

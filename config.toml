@@ -108,7 +108,7 @@ Euer Orgateam:
 				link = "http://www.cafe-mandrin.de"
 
 		[[params.sponsoren.items]]
-				image = "wendt.jpg"
+				image = "wendt.png"
 
 		[[params.sponsoren.items]]
 				image = "schwieger.jpg"
