@@ -108,19 +108,12 @@ Euer Orgateam:
 				link = "http://www.cafe-mandrin.de"
 
 		[[params.sponsoren.items]]
-				image = "wendt.png"
+				image = "wendt.jpg"
 
 		[[params.sponsoren.items]]
 				image = "schwieger.jpg"
 				link = "http://www.fleischereischwieger.de"
-
-		[[params.sponsoren.items]]
-				image = "lebenshilfe.jpg"
-				link = "http://www.lebenshilfe-braunschweig.de"
 			
-				
-
-
 	# Footer
     [params.footer.facebook]
 		link = "https://www.facebook.com/events/463825197327280"     
