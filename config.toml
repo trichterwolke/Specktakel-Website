@@ -51,8 +51,7 @@ googleAnalytics = ""
 
 Was einmal kleiner Mittelaltermarkt und nur auf dem Gelände des SoVD begann, wird nun zum vierten Mal auf der ehemaligen Festwiese des Stadtteils Gliesmarode stattfinden. 
 
-Im **BegegnungsZentrum Gliesmarode** wird es eine Ausstellung zum 100 jährigen Bestehen des SoVD geben. 
-Ebenso sind dieses mal das Schwimmbad Gliesmarode, der Schützenverein Gliesmarode sowie der Kleingartenverein Gliesmarode mit an Bord und werden jeweils Attraktionen bieten.
+Im BegegnungsZentrum Gliesmarode wird es eine Ausstellung zum 100 jährigen Bestehen des SoVD geben. Ebenso sind dieses mal das Schwimmbad Gliesmarode mit an Bord und wird auch Attraktionen bieten.
 
 Wir haben ein buntes Veranstaltungsprogramm zum Staunen, Mitmachen und Genießen für euch zusammengestellt und hoffen, euch wieder bestens unterhalten zu können. 
 
@@ -104,16 +103,16 @@ Euer Orgateam:
 				link = "http://www.elite24.net"
 
 		[[params.sponsoren.items]]
+				image = "wendt.jpg"
+
+		[[params.sponsoren.items]]
 				image = "mandrin.jpg"
 				link = "http://www.cafe-mandrin.de"
 
 		[[params.sponsoren.items]]
-				image = "wendt.jpg"
-
-		[[params.sponsoren.items]]
 				image = "schwieger.jpg"
 				link = "http://www.fleischereischwieger.de"
-			
+
 	# Footer
     [params.footer.facebook]
 		link = "https://www.facebook.com/events/463825197327280"     
