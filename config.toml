@@ -87,31 +87,31 @@ Euer Orgateam:
 		city = "38104 Braunschweig"
 
 
-	[params.sponsoren]
-		headline = "Wir danken unseren Sponsoren"
-
-		[[params.sponsoren.items]]
-				image = "wolters.jpg"
-				link = "http://www.hofbrauhaus-wolters.de"
-
-		[[params.sponsoren.items]]
-				image = "alba.jpg"
-				link = "http://www.alba-bs.de"
-
-		[[params.sponsoren.items]]
-				image = "elite.jpg"
-				link = "http://www.elite24.net"
-
-		[[params.sponsoren.items]]
-				image = "wendt.jpg"
-
-		[[params.sponsoren.items]]
-				image = "mandrin.jpg"
-				link = "http://www.cafe-mandrin.de"
-
-		[[params.sponsoren.items]]
-				image = "schwieger.jpg"
-				link = "http://www.fleischereischwieger.de"
+#	[params.sponsoren]
+#		headline = "Wir danken unseren Sponsoren"
+#
+#		[[params.sponsoren.items]]
+#				image = "wolters.jpg"
+#				link = "http://www.hofbrauhaus-wolters.de"
+#
+#		[[params.sponsoren.items]]
+#				image = "alba.jpg"
+#				link = "http://www.alba-bs.de"
+#
+#		[[params.sponsoren.items]]
+#				image = "elite.jpg"
+#				link = "http://www.elite24.net"
+#
+#		[[params.sponsoren.items]]
+#				image = "wendt.jpg"
+#
+#		[[params.sponsoren.items]]
+#				image = "mandrin.jpg"
+#				link = "http://www.cafe-mandrin.de"
+#
+#		[[params.sponsoren.items]]
+#				image = "schwieger.jpg"
+#				link = "http://www.fleischereischwieger.de"
 
 	# Footer
     [params.footer.facebook]
