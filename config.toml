@@ -1,4 +1,4 @@
-baseurl = "http://www.mittelaltermarkt-braunschweig.de"
+baseurl = "https://mittelaltermarkt-braunschweig.de"
 languageCode = "de-de"
 title = "Mittelalterliches Specktakel"
 theme = "specktakel"
@@ -69,7 +69,7 @@ Euer Orgateam:
 		headline = "Weiters Angebot"
 
 	[[params.agenda]]
-		headline = "Programmablauf"
+		headline = "Programm&shy;ablauf"
 
 	# Google Maps section
 	[params.location]
