@@ -26,7 +26,7 @@
         {{ end }}        
 
         {{ if .Site.Data.agenda }}
-            {{ partial "agenda.html" .Site.Data.agenda }}
+            {{ partial "agenda.html" . }}
         {{ end }}
 
         {{ if .Site.Data.contact }}

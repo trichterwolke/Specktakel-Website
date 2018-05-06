@@ -46,7 +46,7 @@ googleAnalytics = ""
 
 	# About section
 	[params.about]
-		headline    = "Seid gegrüßt, Freunde des mittelalterliches Treibens"
+		headline = "Seid gegrüßt, Freunde des mittelalterliches Treibens"
 		description = """zum 4. Mal findet das mittelalterliche Spe“c”ktakel 2017 in Braunschweig statt.
 
 Was einmal kleiner Mittelaltermarkt und nur auf dem Gelände des SoVD begann, wird nun zum vierten Mal auf der ehemaligen Festwiese des Stadtteils Gliesmarode stattfinden. 
@@ -68,8 +68,8 @@ Euer Orgateam:
 	[params.program]
 		headline = "Weiters Angebot"
 
-	[[params.agenda]]
-		headline = "Programm&shy;ablauf"
+	[params.agenda]
+		headline = "Programm\u00ADablauf"
 
 	# Google Maps section
 	[params.location]
