@@ -78,7 +78,7 @@ Euer Orgateam:
 	 	longitude = "10.55484"
 	    address = "Am Soolanger 1, 38104 Braunschweig"
 		content = "<b>BegegnungsZentrum</b><br>Am Soolanger 1<br>38104 Braunschweig"
-	 	maps_api_key = "AIzaSyAy5fmQodq5Cf3UbFPxuEJ4nb6AavuuY_Q"
+	 	#maps_api_key = "AIzaSyAy5fmQodq5Cf3UbFPxuEJ4nb6AavuuY_Q"
 
     [params.location.contact]
 	    title = "Standort des Marktes:"
