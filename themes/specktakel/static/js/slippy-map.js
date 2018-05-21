@@ -16,7 +16,7 @@ function SlippyMap(lat, lon) {
                 anchor: [0.5, 46],
                 anchorXUnits: 'fraction',
                 anchorYUnits: 'pixels',
-                opacity: 0.75,
+                opacity: 1,
                 src: 'openlayers/marker.png'
             }))
         });

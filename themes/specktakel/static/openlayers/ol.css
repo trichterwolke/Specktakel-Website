@@ -124,9 +124,8 @@
     height: 1.375em;
     width: 1.375em;
     line-height: .4em;
-    background-color: rgba(185, 18, 27, .5);
+    background-color: #B9121B;
     border: none;
-    border-radius: 2px
 }
 
 .ol-control button::-moz-focus-inner {
@@ -156,15 +155,7 @@
 .ol-control button:focus,
 .ol-control button:hover {
     text-decoration: none;
-    background-color: rgba(185, 18, 27, .7)
-}
-
-.ol-zoom .ol-zoom-in {
-    border-radius: 2px 2px 0 0
-}
-
-.ol-zoom .ol-zoom-out {
-    border-radius: 0 0 2px 2px
+    background-color: #E31621;
 }
 
 .ol-attribution {
