@@ -27,7 +27,6 @@
         $('.navbar-toggle:visible').click();
     });
 
- 
     // Fit Text Plugin for Main Header   
     $("header h1").fitText(3,
         {
@@ -60,4 +59,6 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
+    // Initialize map.
+    new SlippyMap(52.2775, 10.5555).init();
 })(jQuery); // End of use strict
