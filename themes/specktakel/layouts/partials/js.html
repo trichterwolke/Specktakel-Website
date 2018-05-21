@@ -6,15 +6,11 @@
 <script src="{{ "js/jquery.easing.min.js" | absURL }}"></script>
 <script src="{{ "js/jquery.fittext.js" | absURL }}"></script>
 <script src="{{ "js/wow.min.js" | absURL }}"></script>
-<script src="{{ "openlayers/ol.js" | absURL }}"></script>
-<script src="{{ "js/slippy-map.js" | absURL }}"></script>
 
 {{ if .Site.Params.location }}
-<!--script src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.location.maps_api_key }}&v=3.exp"></script-->
-<!--script src="http://maps.google.com/maps/api/js?sensor=true"></script-->
-<!--script src="{{ "js/gmaps.api.js" | absURL }}"></script>
-<script src="{{ "js/hpneo.gmaps.js" | absURL }}"></script>
-<script src="{{ "js/gmaps.init.js" | absURL }}"></script-->
+    <script src="{{ "openlayers/ol.js" | absURL }}"></script>
+    <script src="{{ "js/slippy-map.js" | absURL }}"></script>
 {{ end }}
+
 {{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
 <script src="{{ "js/specktakel.js" | absURL }}"></script>

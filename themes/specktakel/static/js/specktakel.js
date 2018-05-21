@@ -4,11 +4,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-(function($) {
+(function ($) {
     "use strict"; // Start of use strict
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
-    $('a.page-scroll').bind('click', function(event) {
+    $('a.page-scroll').bind('click', function (event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: ($($anchor.attr('href')).offset().top - 50)
@@ -23,7 +23,7 @@
     })
 
     // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function() {
+    $('.navbar-collapse ul li a').click(function () {
         $('.navbar-toggle:visible').click();
     });
 
@@ -35,14 +35,14 @@
         }
     );
 
-    $("header h2 p").fitText(0.8, 
+    $("header h2 p").fitText(0.8,
         {
             minFontSize: '50px',
             maxFontSize: '120px'
         }
     );
 
-    $("header h3").fitText(1.2, 
+    $("header h3").fitText(1.2,
         {
             minFontSize: '36px',
             maxFontSize: '60px'
@@ -59,6 +59,8 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
-    // Initialize map.
-    new SlippyMap(52.2775, 10.5555).init();
+    // Initialize slippy-map.js
+    var lat = parseFloat($('#latitude').val());
+    var lon = parseFloat($('#longitude').val());
+    new SlippyMap(lat, lon).init();
 })(jQuery); // End of use strict

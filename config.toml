@@ -74,18 +74,16 @@ Euer Orgateam:
 	# Google Maps section
 	[params.location]
 	    headline = "Hier sind wir zu finden"
-	 	latitude  = "52.27721"
-	 	longitude = "10.55484"
+	 	latitude  = "52.2775"
+	 	longitude = "10.5555"
 	    address = "Am Soolanger 1, 38104 Braunschweig"
 		content = "<b>BegegnungsZentrum</b><br>Am Soolanger 1<br>38104 Braunschweig"
-	 	#maps_api_key = "AIzaSyAy5fmQodq5Cf3UbFPxuEJ4nb6AavuuY_Q"
 
     [params.location.contact]
 	    title = "Standort des Marktes:"
 		company = "BZG – BegegnungsZentrum Gliesmarode"
 		street = "Am Soolanger 1a"
 		city = "38104 Braunschweig"
-
 
 #	[params.sponsoren]
 #		headline = "Wir danken unseren Sponsoren"
