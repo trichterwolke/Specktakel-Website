@@ -13,7 +13,7 @@
       frame-ancestors 'none';
       default-src 'none'; 
       font-src 'self';
-      img-src 'self' *openstreetmap.org;
+      img-src 'self' https://*.openstreetmap.org;
       object-src 'none'; 
       script-src 'self';
       style-src 'self';
