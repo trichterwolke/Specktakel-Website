@@ -3,10 +3,10 @@
   <head>
     {{ partial "head.html" . }}
   </head>
-  <body id="page-top" style="margin: 3em 0 0 0">
+  <body id="page-top">
     <div class="container">
       <div class="row">
-        <div style="max-width: 60em; margin: auto;">
+        <div class="default-single-content">
             {{ with .Title }}
                 <h1 class="text-center page-title">{{ . }}</h1>
             {{ end }}
@@ -21,7 +21,7 @@
       </div>
       <div class="row">
         <div class="text-center">
-            <a class="btn btn-primary btn-xl page-scroll" style="margin-bottom: 2em" href="javascript:history.back()">Zurück</a>            
+            <a id="default-single-back" class="btn btn-primary btn-xl page-scroll" href="/">Zurück</a>            
         </div>
       </div>
     </div>

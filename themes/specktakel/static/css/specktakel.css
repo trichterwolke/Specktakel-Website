@@ -782,3 +782,14 @@ ul {
 .sponsor {
     padding: 1em;
 }
+
+/* default single */
+
+div.default-single-content {
+    max-width: 60em; 
+    margin: 3em auto 0 auto;
+}
+
+a#default-single-back {
+    margin-bottom: 2em;
+}
