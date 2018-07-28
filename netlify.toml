@@ -13,10 +13,11 @@
       frame-ancestors 'none';
       default-src 'none'; 
       font-src 'self';
-      img-src 'self';
+      img-src 'self' *openstreetmap.org;
       object-src 'none'; 
       script-src 'self';
-      style-src 'self'
+      style-src 'self';
+      form-action 'none'
       """
     # Prevent browsers from incorrectly detecting non-scripts as scripts
     X-Content-Type-Options = "nosniff"
