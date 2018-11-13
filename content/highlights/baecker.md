@@ -1,5 +1,5 @@
 +++
-weight = 2
+weight = 5
 title = "Pfannenbrotbäcker"
 thumbnail = "thumb.jpg"
 image = "large.jpg"

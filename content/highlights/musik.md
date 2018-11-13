@@ -1,10 +1,9 @@
 +++
-weight = 5
+weight = 2
 title = "Musik"
 thumbnail = "thumb.jpg"
 image = "large.jpg"
 +++
-Die Spielleyt der Kumpanei **Porterra** bieten euch die beliebten Weisen vergangener Zeit und laden ein zum Tanz und Gesang"
+Für  musikalische Unerhaltung wird das Mittelalter-Ensemble **Klanginferno** mit ihren gar vielfältigen Melodeyen sorgen.
 
-[facebook.com/porterrabs](https://www.facebook.com/porterrabs)  
-[www.porterra.net](http://www.porterra.net)
+[www.klanginferno.de](http://www.klanginferno.de)

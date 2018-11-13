@@ -1,6 +1,7 @@
 +++
-weight = 6
-title = "Schmiede"
+weight = 3
+title = "Bogenstand"
 thumbnail = "thumb.jpg"
 image = "large.jpg"
 +++
+bledaiunedt

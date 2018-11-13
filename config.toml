@@ -40,30 +40,30 @@ googleAnalytics = ""
 	[params.hero]	     
 		firstHeadline = "Mittelalterliches"
 		secondHeadline = "Spe“c”ktakel"
-		date = "23. + 24.09.2017"
+		date = "31. + 01.09.2019"
 		location = "Mittelaltermarkt<br>Braunschweig Gliesmarode"
 
 
 	# About section
 	[params.about]
 		headline = "Seid gegrüßt, Freunde des mittelalterliches Treibens"
-		description = """zum 4. Mal findet das mittelalterliche Spe“c”ktakel 2017 in Braunschweig statt.
+		description = """
+nun zum 5. Mal Jährt sich das mittelalterliche  Spe“c”ktakel in Braunschweig. 
+Wieder wird es auf dem alt bekannten Platz der ehemaligen Festwiese des Stadtteils Gliesmarode stattfinden. 
+Nach einjähriger Pause gehen wir nun in einen Zweijahreszyklus über, dies ist leider aus Organisatorischen Gründen nötig geworden.
+Aber nun ist es endlich wieder soweit. Merkt euch den Termin schon einmal gut, es gibt wieder viel zu erleben und mitmachen. 
 
-Was einmal kleiner Mittelaltermarkt und nur auf dem Gelände des SoVD begann, wird nun zum vierten Mal auf der ehemaligen Festwiese des Stadtteils Gliesmarode stattfinden. 
+**31.08. – 01.09.2019**
 
-Im BegegnungsZentrum Gliesmarode wird es eine Ausstellung zum 100 jährigen Bestehen des SoVD geben. Ebenso sind dieses mal das Schwimmbad Gliesmarode mit an Bord und wird auch Attraktionen bieten.
+Als eines der Highlights sind dieses mal die Musikanten der Gruppe **Klanginferno**.
 
-Wir haben ein buntes Veranstaltungsprogramm zum Staunen, Mitmachen und Genießen für euch zusammengestellt und hoffen, euch wieder bestens unterhalten zu können. 
-
-Für das leibliche Wohl ist natürlich auch wieder gesorgt: 
-Ob wohlschmeckendes Pfannenbrot, Bratwurst, veganer Eintopf oder Met aus eigener Herstellung – hier ist für jeden etwas dabei. 
-
-Viel Spaß auf dem **4. mittelalterlichen Markt** wünschen euch die Organisatoren und alle Markttreibenden. 
+Wir haben wieder ein buntes Veranstaltungsprogramm zum Staunen, Mitmachen und Genießen für euch zusammengestellt und hoffen, euch wieder bestens unterhalten zu können. 
+Für das leibliche Wohl ist natürlich auch wieder gesorgt:
+Ob wohlschmeckendes Pfannenbrot, Bratwurst, Veganer Eintopf oder Met aus eigener Herstellung - hier ist für jeden etwas dabei.
+Viel Spaß auf dem **5. mittelalterlichen Markt** wünschen euch die Organisatoren und alle Markttreibenden.
  
-Euer Orgateam:  
-**Ulf der Bäcker** (Thomas Rösler) / Organisatorisches / Marktvoigt  
-**Jens Leipelt** / Organisatorisches  
-**Boris Pawlik** / Organisatorisches"""
+Euer Orgateam
+"""
 
 	[params.program]
 		headline = "Weiters Angebot"

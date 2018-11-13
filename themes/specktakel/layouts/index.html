@@ -25,10 +25,12 @@
             {{ partial "location.html" .Site.Params.location }}
         {{ end }}        
 
+        <!--
         {{ if .Site.Data.agenda }}
             {{ partial "agenda.html" . }}
         {{ end }}
-
+        -->
+        
         {{ if .Site.Data.contact }}
             {{ partial "contacts.html" . }}
         {{ end }}

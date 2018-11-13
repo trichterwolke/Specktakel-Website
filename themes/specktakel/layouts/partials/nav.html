@@ -31,11 +31,13 @@
                     <a class="page-scroll" href="#location">{{ .Site.Params.navigation.links.location }}</a>
                 </li>
                 {{ end }}
+                <!--
                 {{ if and .Site.Params.navigation.links.agenda .Site.Data.agenda }}
                     <li>
                         <a class="page-scroll" href="#agenda">{{ .Site.Params.navigation.links.agenda }}</a>
                     </li>
                 {{ end }}
+                -->
                 {{ if and .Site.Data.contact .Site.Params.navigation.links.contact }}
                     <li>
                         <a class="page-scroll" href="#contact">{{ .Site.Params.navigation.links.contact }}</a>
