@@ -35,9 +35,9 @@
             {{ partial "contacts.html" . }}
         {{ end }}
         
-        {{ $orga := where .Site.Pages "Section" "orga" }}
-        {{ if $orga }}
-            {{ partial "organisation.html" $orga }}
+       
+        {{ if .Site.Params.organization }}
+            {{ partial "organization.html" .Site.Params.organization }}
         {{ end }}
 
         {{ if .Site.Params.sponsoren }}

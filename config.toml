@@ -48,7 +48,7 @@ googleAnalytics = ""
 	[params.about]
 		headline = "Seid gegrüßt, Freunde des mittelalterliches Treibens"
 		description = """
-nun zum 5. Mal Jährt sich das mittelalterliche  Spe“c”ktakel in Braunschweig. 
+nun zum 5. Mal jährt sich das mittelalterliche  Spe“c”ktakel in Braunschweig. 
 Wieder wird es auf dem alt bekannten Platz der ehemaligen Festwiese des Stadtteils Gliesmarode stattfinden. 
 Nach einjähriger Pause gehen wir nun in einen Zweijahreszyklus über, dies ist leider aus Organisatorischen Gründen nötig geworden.
 Aber nun ist es endlich wieder soweit. Merkt euch den Termin schon einmal gut, es gibt wieder viel zu erleben und mitmachen. 
@@ -89,16 +89,25 @@ Euer Orgateam
 
 	[params.organization]
 		headline = "Orgateam"
-		subheadline = "weitere"
+		subheadline = "weiteres Orgateam"
 
-	[[params.organization.items]]
+	[[params.organization.major]]
 		name = "Thomas Rösler"
 
-	[[params.organization.items]]
+	[[params.organization.major]]
 		name = "Jens Leipelt"
 
-	[[params.organization.items]]
+	[[params.organization.major]]
 		name = "Boris Pawlik"
+
+	[[params.organization.minor]]
+		name = "Claudia Rösler"
+
+	[[params.organization.minor]]
+		name = "Dennis Grimm"
+
+	[[params.organization.minor]]
+		name = "Stefanie Grimm"
 
 
 #	[params.sponsoren]

@@ -404,7 +404,7 @@ header h4, h1 {
 .program-box:hover .person-box {
     -webkit-transition: all 333ms;
     -moz-transition: all 333ms;
-    transition: all 333ms;
+    transition: all 333ms;    
 }
 
 /*** PROGRAM ***/
@@ -443,7 +443,7 @@ header h4, h1 {
 
 .person-box-name {
     text-align: center;
-    font-size: 20px;
+    font-size: 1.5em;
 }
 
 .person-box:hover img {
@@ -739,6 +739,12 @@ ul {
 
 .contact {
     margin-bottom: 2em;
+}
+
+.organization {
+    margin: 6px 0;    
+    font-size: 1.5em;
+    text-align: center;
 }
 
 .social-title {
