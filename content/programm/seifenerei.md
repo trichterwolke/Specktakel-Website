@@ -1,6 +1,6 @@
 +++
 weight = 5
-title = "Seifensieder"
+title = "Seifenerei"
 image = "large.jpg"
 description = "Der **Oberharzer Seifensieder** bietet seine von Hand hergestellte Seife feil."
 +++

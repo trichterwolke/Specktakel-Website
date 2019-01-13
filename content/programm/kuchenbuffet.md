@@ -1,5 +1,5 @@
 +++
-weight = 17
+weight = 100
 title = "Kuchenbuffet"
 +++
-Auch in diesem Jahr gibt es in den Räumen des Begegnungszentrums wieder das berühmte Kaffee- und Kuchenbuffet, alles selbst hergestellt von den Mitarbeitern des SoVD.
+Großes Buffet im Begegnungszentrum mit Kuchen, Kaffee und Kaffeespezialitäten
