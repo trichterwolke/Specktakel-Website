@@ -256,30 +256,45 @@ aside {
     }
 }
 
-/** HEADER **/
+/******** HEADER/HERO ********/
+
+.hero-img {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 1s;
+}
+
 header {
     position: relative;
     width: 100%;
-    min-height: auto;
+    min-height: 70%;
     text-align: center;
-    color: white;
-    background-image: url(../img/header.jpg);
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-shadow:0 0 5px black,
-                0 0 10px black,
-                0 0 20px black,
-                0 0 40px black;
+    color: white;    
+    text-shadow: 0 0 5px black,
+                 0 0 10px black,
+                 0 0 20px black,
+                 0 0 40px black;
 }
 
-header .header-content {
+.hide {
+    opacity: 0;
+    transition: 333ms;
+}
+
+.header-content {
     position: relative;
     width: 100%;
-    padding: 100px 15px;
+    padding: 120px 15px;
     text-align: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
 }
 
 header h2 p::first-letter {
@@ -292,7 +307,7 @@ header h2 p {
     margin: 0;
 }
 
-header h3{    
+header h3 {    
     font-family: 'Old London', cursive, 'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
     font-weight: normal;
     margin: 0px;
@@ -311,19 +326,85 @@ header h4, h1 {
     margin-bottom: -20px; 
 }
 
-.header-button {
+.header-content-alt {
     position: absolute;
-    bottom: 0; 
-    left: 0;
-    text-align:center; 
-    width: 100%;
+    width: auto;
+    bottom: 0;
+    margin: 12px 24px;
+    text-align: left;
+    z-index: 100;
+    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 20px black;
+
     visibility: hidden;
-    transition: none;
+    opacity: 0;
+    transition: all 1s;
 }
 
-@media(min-width:768px) {
+.header-content-alt h2 {
+    margin: 0;
+    font-size: 3em;
+}
 
-    .header-button {
+/*
+.header-content h1 {
+    margin: 0;
+    font-size: 4em;
+}
+
+.header-content h2 {
+    margin-top: 0;
+    font-size: 1.94em;
+}
+*/
+button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+#btn-header-down {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    visibility: hidden;
+    text-align: right;
+    transition: none;
+    padding: 0 16px;
+}
+
+@media(min-width: 1024px) {
+    #btn-header-down {
+        text-align: center;
+    }
+}
+
+#btn-header-left,
+#btn-header-right {
+    position: absolute;
+    bottom: 50%;
+    width: auto;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+#btn-header-left {
+    left: 0;
+}
+
+#btn-header-right {
+    right: 0;
+}
+
+.btn-header-inner {
+    width: 40px;
+}
+
+@media(min-width: 640px) {
+    #btn-header-down {
         visibility: visible;
     }
 
@@ -331,28 +412,60 @@ header h4, h1 {
         min-height: 100%;
     }
 
-    header .header-content {
-        position: absolute;
-        top: 50%;
-        padding: 0 50px;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
+    .header-content h1 {
+        margin: 0;
+        font-size: 6em;
     }
 
-    header .header-content .header-content-inner {
-        margin-right: auto;
-        margin-left: auto;
-        max-width: 1000px;
-    }
-
-    header .header-content .header-content-inner p {
-        margin-right: auto;
-        margin-left: auto;
-        max-width: 80%;
-        font-size: 18px;
+    .header-content h2 {
+        margin-top: 0;
+        font-size: 2.9em;
     }
 }
+
+.btn-header {
+    position: relative;
+    bottom: 0;
+    display: inline-block;
+    color: white;
+    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 20px black;
+    -webkit-transition: all 333ms;
+    -moz-transition: all 333ms;
+    transition: all 333ms;
+}
+
+.btn-header:hover,
+.btn-header:focus {    
+    color: white;    
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.25);  
+}
+
+/*
+.btn-header-down {
+    position: relative; 
+    bottom: 0; 
+    display: inline-block;
+    color: white;
+    text-shadow:0 0 5px black,
+                0 0 10px black,
+                0 0 20px black,
+                0 0 40px black; 
+    -webkit-transition: all 333ms;
+    -moz-transition: all 333ms;
+    transition: all 333ms;
+}
+
+.btn-header-down:hover, 
+.btn-header-down:focus,
+.btn-header-down:active{    
+    color: white;    
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.25);  
+}
+*/
 
 .section-heading {
     margin-top: 0;
@@ -684,29 +797,6 @@ ul {
     margin: 0.5em;
 }
 
-.btn-header-down {
-    position: relative; 
-    bottom: 0; 
-    display: inline-block;
-    color: white;
-    text-shadow:0 0 5px black,
-                0 0 10px black,
-                0 0 20px black,
-                0 0 40px black; 
-    -webkit-transition: all 333ms;
-    -moz-transition: all 333ms;
-    transition: all 333ms;
-}
-
-.btn-header-down:hover, 
-.btn-header-down:focus,
-.btn-header-down:active{    
-    color: white;    
-    -moz-transform: scale(1.3);
-    -webkit-transform: scale(1.3);
-    transform: scale(1.25);  
-}
-
 .label-rot {
     margin-top: 2em;
     display: inline-block;
@@ -798,4 +888,10 @@ div.default-single-content {
 
 a#default-single-back {
     margin-bottom: 2em;
+}
+
+.fade-in {
+    visibility: visible;
+    opacity: 1;
+    transition: all 1s;
 }
