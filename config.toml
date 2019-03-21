@@ -48,21 +48,25 @@ googleAnalytics = ""
 	[params.about]
 		headline = "Seid gegrüßt, Freunde des mittelalterliches Treibens"
 		description = """
-nun zum 5. Mal jährt sich das mittelalterliche  Spe“c”ktakel in Braunschweig. 
-Wieder wird es auf dem alt bekannten Platz der ehemaligen Festwiese des Stadtteils Gliesmarode stattfinden. 
-Nach einjähriger Pause gehen wir nun in einen Zweijahreszyklus über, dies ist leider aus Organisatorischen Gründen nötig geworden.
-Aber nun ist es endlich wieder soweit. Merkt euch den Termin schon einmal gut, es gibt wieder viel zu erleben und mitmachen. 
-
-**31.08. – 01.09.2019**
-
-Als eines der Highlights sind dieses mal die Musikanten der Gruppe **Klanginferno**.
-
-Wir haben wieder ein buntes Veranstaltungsprogramm zum Staunen, Mitmachen und Genießen für euch zusammengestellt und hoffen, euch wieder bestens unterhalten zu können. 
-Für das leibliche Wohl ist natürlich auch wieder gesorgt:
-Ob wohlschmeckendes Pfannenbrot, Bratwurst, Veganer Eintopf oder Met aus eigener Herstellung - hier ist für jeden etwas dabei.
-Viel Spaß auf dem **5. mittelalterlichen Markt** wünschen euch die Organisatoren und alle Markttreibenden.
+Das Begegnungszentrum Gliesmarode des SovD
+veranstaltet nun wieder das Mittelalterliche Spe”c”ktakel am
  
-Euer Orgateam
+__31.08 – 01.09.2019__.
+ 
+Dank ihnen nun als erstes kleines Jubiläum zum 5.mal.
+ 
+Nach dem großen Erfolg vom letzten Markt,den mehrere 1000 Besucher erleben konnten,
+hat uns in unserer Arbeit gestärkt so das wir die bekannten Markttreibenden um einige
+Attraktionen bereichern können.
+ 
+Die Geschichtsreise findet wieder an einem Wochenende auf der ehemaligen Festwiese
+Gliesmarode statt.
+ 
+Ein buntes Rahmenprogramm für Groß und Klein zum staunen und mitmachen wurde von uns wieder zusammen gestellt.
+Das Mittelalterliche Spe“c”ktakel werden wir auch in Zukunft nur noch alle 2 Jahre aus orgasinatorischen Gründen veranstalten können.
+ 
+Wir würden uns über ihren Besuch sehr freuen und hoffen auf sonniges Wetter und gute Laune.
+das Orgateam
 """
 
 	[params.program]
@@ -98,28 +102,32 @@ Euer Orgateam
 		name = "Jens Leipelt"
 
 	[[params.organization.major]]
-		name = "Boris Pawlik"
+		name = "Boris Pawlik-Warnecke"
 
 	[[params.organization.minor]]
 		name = "Claudia Rösler"
 
 	[[params.organization.minor]]
-		name = "Dennis Grimm"
+		name = "Ira Pawlik-Warnecke"
 
 	[[params.organization.minor]]
-		name = "Stefanie Grimm"
+		name = "Stefanie & Dennis Grimm"
 
 
-#	[params.sponsoren]
-#		headline = "Wir danken unseren Sponsoren"
-#
-#		[[params.sponsoren.items]]
-#				image = "wolters.jpg"
-#				link = "http://www.hofbrauhaus-wolters.de"
-#
-#		[[params.sponsoren.items]]
-#				image = "alba.jpg"
-#				link = "http://www.alba-bs.de"
+	[params.sponsoren]
+		headline = "Wir danken unseren Sponsoren"
+
+		[[params.sponsoren.items]]
+				image = "wolters.jpg"
+				link = "http://www.hofbrauhaus-wolters.de"
+
+		[[params.sponsoren.items]]
+				image = "alba.jpg"
+				link = "http://www.alba-bs.de"
+
+		[[params.sponsoren.items]]
+				image = "goerge.jpg"
+				link = "https://goerge-markt.de"
 #
 #		[[params.sponsoren.items]]
 #				image = "elite.jpg"

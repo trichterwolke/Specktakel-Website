@@ -895,3 +895,12 @@ a#default-single-back {
     opacity: 1;
     transition: all 1s;
 }
+
+div.about{
+    text-align: center;
+}
+
+div.about > p > strong {    
+    font-size: 1.2em;
+    color: #B9121B;
+}
