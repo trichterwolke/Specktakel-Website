@@ -1,6 +1,6 @@
 +++
 weight = 17
-title = "Töpferei"
+title = "Schmiede"
 #image = "large.jpg"
 #description = ""
 +++
