@@ -1,32 +1,38 @@
 {{ "<!-- ORGANIZATION -->" | safeHTML }}
-<section id="organization">    
-    <div class="container">          
+<section id="organization">
+    <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
-                <h2 class="section-heading">{{ .headline }}</h2>
+                <h2 class="section-heading">{{ .Site.Params.organization.headline }}</h2>
                 <hr class="primary">
             </div>
-        </div>    
+        </div>
         <div class="row">
-            {{ range .major }}
-                <div class="col-xl-12">
-                    <p class="organization">
-                        {{ .name }}
-                    </p>                        
+            {{ range where .Site.Pages "Section" "organization"  }}
+                <div class="col-lg-3 col-lg-offset-1 col-sm-3 col-xs-6">                    
+                    <div class="person-box">
+                        <img src="{{ .URL }}{{ .Params.thumbnail }}" class="img-responsive" alt="">          
+                        <!--div class="person-box-title">
+                            {{ .Title }}
+                        </div-->  
+                        <div class="person-box-name">
+                            {{ .Params.name }}
+                        </div>    
+                    </div>
                </div>
             {{ end }}                   
-        </div>         
+        </div>
         <div class="row text-center">
-            <h4>{{ .subheadline }}</h4>
-        </div>    
+            <h4>{{ .Site.Params.organization.subheadline }}</h4>
+        </div>
         <div class="row">
-            {{ range .minor }}
-                <div class="col-xl-12">
-                    <p class="organization">
-                        {{ .name }}
-                    </p>                        
-               </div>
-            {{ end }}                   
+            {{ range .Site.Params.organization.minor }}
+            <div class="col-xl-12">
+                <p class="organization">
+                    {{ .name }}
+                </p>
+            </div>
+            {{ end }}
         </div>
     </div>
 </section>

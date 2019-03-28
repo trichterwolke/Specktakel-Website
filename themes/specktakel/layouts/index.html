@@ -37,7 +37,7 @@
         
        
         {{ if .Site.Params.organization }}
-            {{ partial "organization.html" .Site.Params.organization }}
+            {{ partial "organization.html" . }}
         {{ end }}
 
         {{ if .Site.Params.sponsoren }}
