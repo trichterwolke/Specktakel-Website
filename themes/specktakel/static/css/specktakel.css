@@ -9,7 +9,6 @@
     src: url('../fonts/OldLondon.ttf');
 }
 
-
 html,
 body {
     width: 100%;
@@ -41,16 +40,16 @@ a:focus {
     color: #B9121B;
 }
 
-h1, 
-h2 { 
-    font-family: 'Old London', cursive, 'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
-} 
+h1,
+h2 {
+    font-family: 'Old London', cursive, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
 
 h3,
-h4, 
+h4,
 h5,
-h6 { 
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
+h6 {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 h1 {
@@ -61,8 +60,8 @@ h2 {
     font-size: 4em;
 }
 
-h3 { 
-    font-size: 1.7em;    
+h3 {
+    font-size: 1.7em;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 1.2em;
@@ -82,7 +81,6 @@ h6 {
     font-size: 1em;
 }
 
-
 .section-heading:first-letter,
 .page-title::first-letter {
     font-size: 150%;
@@ -90,8 +88,8 @@ h6 {
 }
 
 .page-title {
-    font-size: 5em;    
-    font-family: 'Old London', cursive, 'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
+    font-size: 5em;
+    font-family: 'Old London', cursive, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     font-weight: normal;
     text-transform: none;
 }
@@ -103,6 +101,7 @@ h2:first-letter {
     color: #B9121B;
 }
 */
+
 p {
     margin-bottom: 20px;
     font-size: 1.5em;
@@ -119,7 +118,7 @@ p {
 }
 
 .text-faded {
-    color: rgba(255,255,255,.7);
+    color: rgba(255, 255, 255, .7);
 }
 
 section {
@@ -137,18 +136,17 @@ aside {
 /*** NAVBAR ***/
 
 .navbar-default {
-    border-color: rgba(34,34,34,.05);
+    border-color: rgba(34, 34, 34, .05);
     background: #FFF9E3;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     -webkit-transition: all 333ms;
     -moz-transition: all 333ms;
     transition: all 333ms;
-    
 }
 
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     /*font-weight: 700;*/
     font-weight: bold;
     font-size: 1.1em;
@@ -160,27 +158,27 @@ aside {
     color: #B9121B;
 }
 
-.navbar-default .nav > li > a,
-.navbar-default .nav > li > a:focus {
+.navbar-default .nav>li>a,
+.navbar-default .nav>li>a:focus {
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 700;
     color: #3D2E17;
 }
 
-.navbar-default .nav > li > a:hover,
-.navbar-default .nav > li > a:focus:hover {
+.navbar-default .nav>li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
     color: #B9121B;
 }
 
-.navbar-default .nav > li.active > a,
-.navbar-default .nav > li.active > a:focus {
+.navbar-default .nav>li.active>a,
+.navbar-default .nav>li.active>a:focus {
     color: #B9121B !important;
     background-color: transparent;
 }
 
-.navbar-default .nav > li.active > a:hover,
-.navbar-default .nav > li.active > a:focus:hover {
+.navbar-default .nav>li.active>a:hover,
+.navbar-default .nav>li.active>a:focus:hover {
     background-color: transparent;
 }
 
@@ -190,69 +188,55 @@ aside {
         background-color: transparent;
         font-size: 1em;
     }
-
     .navbar-default .navbar-header .navbar-brand {
         visibility: hidden;
         width: 0;
     }
-
-    .navbar-default.affix-top .nav {        
+    .navbar-default.affix-top .nav {
         margin: 2em 4em 0 0;
         transition: all 333ms;
     }
-
-    .navbar-default.affix .nav {    
-        transition: all 333ms; 
+    .navbar-default.affix .nav {
+        transition: all 333ms;
     }
-
-    .navbar-default.affix-top .nav > li > a {
+    .navbar-default.affix-top .nav>li>a {
         font-size: 0.8em;
-        text-shadow: 0 0  5px black,
-                     0 0 10px black,
-                     0 0 20px black;
+        text-shadow: 0 0 5px black, 0 0 10px black, 0 0 20px black;
     }
-
-    .navbar-default .nav > li > a,
-    .navbar-default .nav > li > a:focus {
+    .navbar-default .nav>li>a,
+    .navbar-default .nav>li>a:focus {
         color: white;
         transition: all 333ms;
     }
-
-    .navbar-default .nav > li > a:hover,
-    .navbar-default .nav > li > a:focus:hover {
-        color: white;        
-        transform: scale(1.2);    
+    .navbar-default .nav>li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: white;
+        transform: scale(1.2);
     }
-
     /*.navbar-default .navbar-brand {}*/
-
     .navbar-default.affix {
-        border-color: rgba(34,34,34,.05);
+        border-color: rgba(34, 34, 34, .05);
         background-color: #F6E3B2;
         box-shadow: 0 0 5px black;
     }
-
     .navbar-default.affix .navbar-header .navbar-brand {
-        visibility: visible;    
-        width: auto;            
+        visibility: visible;
+        width: auto;
         color: #B9121B;
         transition: all 333ms;
     }
-
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #B9121B;        
-        transform: scale(1.1);    
+        color: #B9121B;
+        transform: scale(1.1);
     }
-
-    .navbar-default.affix .nav > li > a,
-    .navbar-default.affix .nav > li > a:focus {
+    .navbar-default.affix .nav>li>a,
+    .navbar-default.affix .nav>li>a:focus {
         color: #3D2E17;
     }
-
-    .navbar-default.affix .nav > li > a:hover,
-    .navbar-default.affix .nav > li > a:focus:hover {
-        color: #B9121B;        
+    .navbar-default.affix .nav>li>a:hover,
+    .navbar-default.affix .nav>li>a:focus:hover {
+        color: #B9121B;
     }
 }
 
@@ -274,11 +258,8 @@ header {
     width: 100%;
     min-height: 70%;
     text-align: center;
-    color: white;    
-    text-shadow: 0 0 5px black,
-                 0 0 10px black,
-                 0 0 20px black,
-                 0 0 40px black;
+    color: white;
+    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 20px black, 0 0 40px black;
 }
 
 .hide {
@@ -291,7 +272,6 @@ header {
     width: 100%;
     padding: 120px 15px;
     text-align: center;
-
     visibility: hidden;
     opacity: 0;
     transition: all 1s;
@@ -307,8 +287,8 @@ header h2 p {
     margin: 0;
 }
 
-header h3 {    
-    font-family: 'Old London', cursive, 'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
+header h3 {
+    font-family: 'Old London', cursive, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     font-weight: normal;
     margin: 0px;
 }
@@ -318,12 +298,13 @@ header h3::first-letter {
     color: inherit;
 }
 
-header h4, h1 {    
+header h4,
+h1 {
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     text-transform: uppercase;
     margin: 28px;
-    font-weight: bold;    
-    margin-bottom: -20px; 
+    font-weight: bold;
+    margin-bottom: -20px;
 }
 
 .header-content-alt {
@@ -334,7 +315,6 @@ header h4, h1 {
     text-align: left;
     z-index: 100;
     text-shadow: 0 0 5px black, 0 0 10px black, 0 0 20px black;
-
     visibility: hidden;
     opacity: 0;
     transition: all 1s;
@@ -356,6 +336,7 @@ header h4, h1 {
     font-size: 1.94em;
 }
 */
+
 button {
     background-color: Transparent;
     background-repeat: no-repeat;
@@ -407,16 +388,13 @@ button {
     #btn-header-down {
         visibility: visible;
     }
-
     header {
         min-height: 100%;
     }
-
     .header-content h1 {
         margin: 0;
         font-size: 6em;
     }
-
     .header-content h2 {
         margin-top: 0;
         font-size: 2.9em;
@@ -435,11 +413,11 @@ button {
 }
 
 .btn-header:hover,
-.btn-header:focus {    
-    color: white;    
+.btn-header:focus {
+    color: white;
     -moz-transform: scale(1.3);
     -webkit-transform: scale(1.3);
-    transform: scale(1.25);  
+    transform: scale(1.25);
 }
 
 /*
@@ -485,7 +463,8 @@ button {
     color: white;
     text-decoration: none;
 }
-.program-box .program-name {    
+
+.program-box .program-name {
     background-color: #B9121B;
     text-align: center;
     text-transform: uppercase;
@@ -498,13 +477,13 @@ button {
     background: #E31621;
 }
 
-.program-box:hover .program-box{
+.program-box:hover .program-box {
     -webkit-transition: all 333ms;
     -moz-transition: all 333ms;
     transition: all 333ms;
 }
 
-.program-box img{    
+.program-box img {
     -webkit-transition: all 333ms;
     -moz-transition: all 333ms;
     transition: all 333ms;
@@ -517,16 +496,16 @@ button {
 .program-box:hover .person-box {
     -webkit-transition: all 333ms;
     -moz-transition: all 333ms;
-    transition: all 333ms;    
+    transition: all 333ms;
 }
 
 /*** PROGRAM ***/
+
 .program-name {
     text-align: center;
     text-transform: uppercase;
     font-size: 1.5em;
     padding: 0.3em;
-
     text-align: center
 }
 
@@ -537,7 +516,6 @@ button {
     position: relative;
     max-width: 200px;
     margin-bottom: 30px;
-    
 }
 
 .person-box img {
@@ -576,11 +554,10 @@ button {
     color: #B9121B;
 }
 
-.no-gutter > [class*=col-] {
+.no-gutter>[class*=col-] {
     padding-right: 0;
     padding-left: 0;
 }
-
 
 .btn-default {
     border-color: #fff;
@@ -596,7 +573,7 @@ button {
 .btn-default.focus,
 .btn-default:active,
 .btn-default.active,
-.open > .dropdown-toggle.btn-default {
+.open>.dropdown-toggle.btn-default {
     border-color: #ededed;
     color: #3D2E17;
     background-color: #f2f2f2;
@@ -604,7 +581,7 @@ button {
 
 .btn-default:active,
 .btn-default.active,
-.open > .dropdown-toggle.btn-default {
+.open>.dropdown-toggle.btn-default {
     background-image: none;
 }
 
@@ -649,7 +626,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.focus,
 .btn-primary:active,
 .btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
+.open>.dropdown-toggle.btn-primary {
     border-color: #B9121B;
     color: white;
     background-color: #E31621;
@@ -657,7 +634,7 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary:active,
 .btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
+.open>.dropdown-toggle.btn-primary {
     background-image: none;
 }
 
@@ -692,7 +669,7 @@ fieldset[disabled] .btn-primary.active {
     border: 0;
     border-radius: 300px;
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 700;
 }
 
@@ -733,6 +710,7 @@ body {
 }
 
 /* CONTACT */
+
 .contact-item {
     color: white;
 }
@@ -746,13 +724,13 @@ body {
 }
 
 .btn-circle {
-  width: 60px;
-  height: 60px;
-  text-align: center;
-  padding: 6px 0;
-  font-size: 18px;
-  line-height: 1.42;
-  border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 18px;
+    line-height: 1.42;
+    border-radius: 30px;
 }
 
 .half-transparent {
@@ -773,14 +751,15 @@ table {
     font-size: 1.5em;
     margin: auto;
 }
+
 td.time {
     width: 1%;
     vertical-align: top;
-    padding-right: 1em; 
+    padding-right: 1em;
     white-space: nowrap;
 }
 
-td.event{
+td.event {
     width: auto;
     /*font-weight: bold;*/
 }
@@ -806,17 +785,16 @@ ul {
     font-size: 1.2em;
     text-transform: uppercase;
     color: white;
-    background: #B9121B; 
+    background: #B9121B;
     padding: 1em;
     text-align: center;
     transform: rotate(-10deg);
     display: table-cell;
-    vertical-align: middle;   
-        
+    vertical-align: middle;
 }
 
 .label-rot p {
-      margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .contact p {
@@ -832,7 +810,7 @@ ul {
 }
 
 .organization {
-    margin: 6px 0;    
+    margin: 6px 0;
     font-size: 1.5em;
     text-align: center;
 }
@@ -850,24 +828,20 @@ ul {
     margin-bottom: 1em;
 }
 
-.footer-icon {    
+.footer-icon {
     color: white;
 }
 
 .footer-icon:hover {
-    color: #B9121B; 
+    color: #B9121B;
 }
 
 .footer-text {
     font-size: 1.2em;
-    color: white;    
+    color: white;
     display: inline-block;
     vertical-align: middle;
     height: 0.4em;
-}
-
-.agenda-table {
-    width: 100%;
 }
 
 #footer {
@@ -882,7 +856,7 @@ ul {
 /* default single */
 
 div.default-single-content {
-    max-width: 60em; 
+    max-width: 60em;
     margin: 3em auto 0 auto;
 }
 
@@ -896,11 +870,29 @@ a#default-single-back {
     transition: all 1s;
 }
 
-div.about{
+div.about {
     text-align: center;
 }
 
-div.about > p > strong {    
+div.about>p>strong {
     font-size: 1.2em;
     color: #B9121B;
+}
+
+/** AGENDA **/
+
+p.agenda-event {
+    font-weight: bold;
+}
+
+p.agenda-event::after {
+ content: ":";
+}
+
+div.agenda-element {
+    margin-bottom: 24px;
+}
+
+.agenda-element>div>p {
+    margin-bottom: 3px;
 }

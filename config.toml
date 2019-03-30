@@ -75,7 +75,7 @@ das Orgateam
 		#bottomline = "im Begegnungszentrum großes Kuchenbuffet, Kaffee und Kaffeespezialitäten"
 
 	[params.agenda]
-		headline = "Programm\u00ADablauf"
+		headline = "Programm"
 
 	# Google Maps section
 	[params.location]

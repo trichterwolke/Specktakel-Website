@@ -1,0 +1,3 @@
+weight = 20
+event = "Showkampf"
+dates = ["Sa 13:00 Uhr", "Sa 16:00 Uhr", "So 13:00 Uhr", "So 15:00 Uhr"]

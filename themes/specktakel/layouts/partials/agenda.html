@@ -9,26 +9,17 @@
                 <hr class="primary">
             </div>
         </div>
-        {{ range .Site.Data.agenda }}
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h3>{{ .headline }} – {{ .date }}</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <table class="agenda-table">
-                    {{ range .items }}
-                    <tr>
-                        <td class="time">{{ .time }}</td>
-                        <td class="event">{{ .event }}</td>
-                    </tr>
+        {{ range sort .Site.Data.agenda "weight" }}
+            <div class="row agenda-element">
+                <div class="col-lg-3 col-lg-offset-2 col-md-4 col-md-offset-0" ><p class="agenda-event">{{ .event }}</p></div>
+                <div class="col-lg-7 col-md-8">
+                    {{ range .dates }}
+                        <p>{{ . }}</p>
                     {{ end }}
-                </table>
+                </div>
             </div>
-        </div>
         {{ end }}
-        <div class="row">
+        <!--div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <div class="label-rot">
                     <div class="label-rot-content">
@@ -36,6 +27,6 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div-->
     </div>
 </section>

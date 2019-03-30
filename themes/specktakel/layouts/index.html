@@ -24,12 +24,10 @@
         {{ if .Site.Params.location }}
             {{ partial "location.html" .Site.Params.location }}
         {{ end }}        
-
-        <!--
+        
         {{ if .Site.Data.agenda }}
             {{ partial "agenda.html" . }}
-        {{ end }}
-        -->
+        {{ end }}        
         
         {{ if .Site.Data.contact }}
             {{ partial "contacts.html" . }}
