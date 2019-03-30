@@ -78,7 +78,7 @@
 })(jQuery); // End of use strict
 
 var slideIndex = 1;
-var slideCount = 6;
+var slideCount = 8;
 var autoSlideOn = true;
 
 showSlide(slideIndex);
