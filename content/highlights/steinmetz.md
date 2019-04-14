@@ -1,6 +1,7 @@
 +++
 weight = 9
 title = "Steinmetz"
+thumbnail = "thumb.jpg"
 image = "large.jpg"
 description = "Steinmetze demonstrieren die traditionelle Bearbeitung von Naturstein mit Handwerkzeugen."
 +++
