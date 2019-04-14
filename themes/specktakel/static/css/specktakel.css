@@ -322,20 +322,24 @@ h1 {
 
 .header-content-alt h2 {
     margin: 0;
-    font-size: 3em;
 }
 
-/*
-.header-content h1 {
+.header-content-alt h2 {
     margin: 0;
-    font-size: 4em;
+    font-size: 7vw;
 }
 
-.header-content h2 {
-    margin-top: 0;
-    font-size: 1.94em;
+@media(min-width: 640px) {
+    .header-content-alt h2 {
+        font-size: 5vw;
+    }
 }
-*/
+
+@media(min-width: 1024px) {
+    .header-content-alt h2 {
+        font-size: 3em;
+    }
+}
 
 button {
     background-color: Transparent;
@@ -886,7 +890,7 @@ p.agenda-event {
 }
 
 p.agenda-event::after {
- content: ":";
+    content: ":";
 }
 
 div.agenda-element {
