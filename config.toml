@@ -120,13 +120,17 @@ Das Orgateam
 				link = "http://www.hofbrauhaus-wolters.de"
 
 		[[params.sponsoren.items]]
+				image = "goerge.jpg"
+				link = "https://goerge-markt.de"	
+
+		[[params.sponsoren.items]]
 				image = "alba.jpg"
 				link = "http://www.alba-bs.de"
 
 		[[params.sponsoren.items]]
-				image = "goerge.jpg"
-				link = "https://goerge-markt.de"
-#
+				image = "bbg.jpg"
+				link = "https://www.baugenossenschaft.de"
+									
 #		[[params.sponsoren.items]]
 #				image = "elite.jpg"
 #				link = "http://www.elite24.net"
