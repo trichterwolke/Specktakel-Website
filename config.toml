@@ -138,9 +138,9 @@ Das Orgateam
 #		[[params.sponsoren.items]]
 #				image = "wendt.jpg"
 #
-#		[[params.sponsoren.items]]
-#				image = "mandrin.jpg"
-#				link = "http://www.cafe-mandrin.de"
+		[[params.sponsoren.items]]
+				image = "mandrin.jpg"
+				link = "http://www.cafe-mandrin.de"
 #
 #		[[params.sponsoren.items]]
 #				image = "schwieger.jpg"

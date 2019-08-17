@@ -1,7 +1,7 @@
 +++
 weight = "4"
 title = "Organisator"
-name = "Boris Pawlik"
+name = "Boris Pawlik-Warnecke"
 thumbnail = "thumb.jpg"
 image = "large.jpg"
 +++
