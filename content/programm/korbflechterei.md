@@ -1,7 +1,7 @@
 +++
 weight = 16
 title = "Korbflechterei"
-image = "large.png"
+image = "large.jpg"
 #description = ""
 +++
 An unserem Stand findet man Weidenkörbe aller Art vom Brotschälchen über
