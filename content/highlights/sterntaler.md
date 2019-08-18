@@ -1,8 +1,9 @@
 +++
-weight = 20
+weight = 9
 title = "Sterntaler"
 description = "Zur Attraktion und Erbauung nicht nur des jungen Volkes."
 image = "large.jpg"
+thumbnail = "thumb.jpg"
 +++
 Zur Attraktion und Erbauung nicht nur des jungen Volkes.
 
